@@ -1,0 +1,148 @@
+generators:
+    name: "&d&nGenerator Shop [page %page%/1]"
+    size: 45
+    buttons:
+      goBack:
+        slot: 40   
+      previousPage:
+        slot: 39
+      nextPage:
+        slot: 41
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: ""        
+    items:
+       1:
+        type: command
+        item:
+          material: HAY_BLOCK
+          quantity: 1
+          name: "&eWheat&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[wheat_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 200
+        sellPrice: -1
+        slot: 11   
+       2:
+        type: command
+        item:
+          material: COAL_BLOCK
+          quantity: 1
+          name: "&8Coal Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[coal_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 12
+       3:
+        type: command
+        item:
+          material: IRON_BLOCK
+          quantity: 1
+          name: "&7Iron&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[iron_ingot_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 18000
+        sellPrice: -1
+        slot: 13
+       4:
+        type: command
+        item:
+          material: GOLD_BLOCK
+          quantity: 1
+          name: "&6Gold&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[gold_ingot_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 54000
+        sellPrice: -1
+        slot: 14
+       5:
+        type: command
+        item:
+          material: DIAMOND_BLOCK
+          quantity: 1
+          name: "&bDiamond&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[diamond_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 162000
+        sellPrice: -1
+        slot: 15
+       6:
+        type: command
+        item:
+          material: EMERALD_BLOCK
+          quantity: 1
+          name: "&2Emerald&r&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[emerald_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 486000
+        sellPrice: -1
+        slot: 20
+       7:
+        type: command
+        item:
+          material: NETHERITE_BLOCK
+          quantity: 1
+          name: "&8&nNetherite&r&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[netherite_ingot_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 1458000
+        sellPrice: -1
+        slot: 21
+       8:
+        type: command
+        item:
+          material: QUARTZ_PILLAR
+          quantity: 1
+          name: "&fQuartz&r&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[quartz_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 4374000
+        sellPrice: -1
+        slot: 22
+       9:
+        type: command
+        item:
+          material: BUDDING_AMETHYST
+          quantity: 1
+          name: "&dCrystal&r&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands:
+          - "ex give <item[amethyst_shard_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 13122000
+        sellPrice: -1
+        slot: 23
+       10:
+        type: command
+        item:
+          material: LODESTONE
+          quantity: 1
+          name: "&e&nStar&r&8 Generator &0(&fLvl. 1&0)&e"
+          damage: 0
+        commands: 
+          - "ex give <item[nether_star_generator_1].with_flag[owner:%PLAYER%].with_flag[prestige:<server.match_player[%PLAYER%].flag[prestige]||0>]> to:<server.match_player[%PLAYER%].inventory>"
+        commandsLimit: 64
+        buyPrice: 39366000
+        sellPrice: -1
+        slot: 24
+       29:
+        type: special
+        special: balance
+        slot: 44        

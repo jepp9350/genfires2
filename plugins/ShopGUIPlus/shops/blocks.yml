@@ -1,0 +1,498 @@
+  blocks:
+    name: "&8&nBlocks [page %page%/2]"
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: "" 
+    items:
+      1:
+        type: item
+        item:
+          material: STONE
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 0.25
+        slot: 10
+      2:
+        type: item
+        item:
+          material: GRANITE
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 0.25
+        slot: 11
+      3:
+        type: item
+        item:
+          material: ANDESITE
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 0.25
+        slot: 12       
+      4:
+        type: item
+        item:
+          material: COBBLESTONE
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: 0.1
+        slot: 13   
+      5:
+        type: item
+        item:
+          material: mossy_cobblestone
+          quantity: 1
+        buyPrice: 11
+        sellPrice: 0.3
+        slot: 14     
+      6:
+        type: item
+        item:
+          material: STONE_BRICKS
+          quantity: 1
+        buyPrice: 9
+        sellPrice: -1
+        slot: 15       
+      7:
+        type: item
+        item:
+          material: MOSSY_STONE_BRICKS
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: 1.25
+        slot: 16      
+      8:
+        type: item
+        item:
+          material: CRACKED_STONE_BRICKS
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: 1.25
+        slot: 19        
+      9:
+        type: item
+        item:
+          material: CHISELED_STONE_BRICKS
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: 1.25
+        slot: 20        
+      11:
+        type: item
+        item:
+          material: DIRT  
+          quantity: 1
+        buyPrice: 3
+        sellPrice: 0.3
+        slot: 21      
+      12:
+        type: item
+        item:
+          material: grass_block
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: 0.3
+        slot: 22       
+      13:
+        type: item
+        item:
+          material: coarse_dirt
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: 0.4
+        slot: 23       
+      14:
+        type: item
+        item:
+          material: PODZOL
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: 0.4
+        slot: 24       
+      15:
+        type: item
+        item:
+          material: mycelium
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 2
+        slot: 25     
+      16:
+        type: item
+        item:
+          material: clay
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: 1
+        slot: 28             
+      17:
+        type: item
+        item:
+          material: GRAVEL
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: 0.5
+        slot: 29         
+      18:
+        type: item
+        item:
+          material: SAND
+          quantity: 1
+        buyPrice: 4
+        sellPrice: 0.3
+        slot: 30
+      19:
+        type: item
+        item:
+          material: red_sand
+          quantity: 1
+        buyPrice: 4
+        sellPrice: 0.3
+        slot: 31
+      20:
+        type: item
+        item:
+          material: sandstone
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: 1.25
+        slot: 32   
+      21:
+        type: item
+        item:
+          material: GLASS
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: 0.3
+        slot: 33
+      28:
+        type: item
+        item:
+          material: terracotta
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 0.6
+        slot: 34      
+      29:
+        type: item
+        item:
+          material: DIORITE 
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 0.25
+        slot: 37
+      30:
+        type: item
+        item:
+          material: end_stone
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: 2.5
+        slot: 38
+      37:
+        type: item
+        item:
+          material: Obsidian
+          quantity: 1
+        buyPrice: 25
+        sellPrice: 4
+        slot: 39
+      38:
+        type: item
+        item:
+          material: BRICKS
+          quantity: 1
+        buyPrice: 7
+        sellPrice: 1.5
+        slot: 40
+      39:
+        type: item
+        item:
+          material: ICE
+          quantity: 1
+        buyPrice: 25
+        sellPrice: 3
+        slot: 41
+      40:
+        type: item
+        item:
+          material: packed_ice
+          quantity: 1
+        buyPrice: 30
+        sellPrice: 6
+        slot: 42
+      41:
+        type: item
+        item:
+          material: chain
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: 1
+        slot: 43
+      42:
+        type: item
+        item:
+          material: netherrack
+          quantity: 1
+        buyPrice: 7
+        sellPrice: 0.25
+        slot: 10
+        page: 2
+      43:
+        type: item
+        item:
+          material: soul_sand
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 1
+        slot: 11
+        page: 2
+      44:
+        type: item
+        item:
+          material: quartz_block
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: 2
+        slot: 12
+        page: 2
+      45:
+        type: item
+        item:
+          material: nether_bricks
+          quantity: 1
+        buyPrice: 10
+        sellPrice: 1
+        slot: 13
+        page: 2
+      46:
+        type: item
+        item:
+          material: sea_lantern
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: -1
+        slot: 14
+        page: 2                                                                                                                                            
+      47:
+        type: item
+        item:
+          material: SPONGE
+          quantity: 1
+        buyPrice: 10000
+        sellPrice: -1 
+        slot: 15
+        page: 2
+      48:
+        type: item
+        item:
+          material: prismarine
+          quantity: 1
+        buyPrice: 60
+        sellPrice: 3
+        slot: 16
+        page: 2
+      49:
+        type: item
+        item:
+          material: chain
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 20 
+        slot: 19
+        page: 2
+      50:
+        type: item
+        item:
+          material: dark_prismarine
+          quantity: 1
+        buyPrice: 150
+        sellPrice: 30 
+        slot: 20
+        page: 2
+      51:
+        type: item
+        item:
+          material: glowstone
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 3 
+        slot: 21
+        page: 2
+      52:
+        type: item
+        item:
+          material: redstone_lamp
+          quantity: 1
+        buyPrice: 20
+        sellPrice: -1 
+        slot: 22
+        page: 2
+      53:
+        type: item
+        item:
+          material: slime_block
+          quantity: 1
+        buyPrice: 450
+        sellPrice: -1 
+        slot: 23
+        page: 2
+      200:
+        type: item
+        item:
+          material: smooth_sandstone
+          quantity: 1
+        buyPrice: 21
+        sellPrice: -1 
+        slot: 24
+        page: 2
+      201:
+        type: item
+        item:
+          material: smooth_stone
+          quantity: 1
+        buyPrice: 25
+        sellPrice: -1 
+        slot: 25
+        page: 2
+      202:
+        type: item
+        item:
+          material: smooth_red_sandstone
+          quantity: 1
+        buyPrice: 25
+        sellPrice: -1 
+        slot: 28
+        page: 2
+      203:
+        type: item
+        item:
+          material: chiseled_quartz_block
+          quantity: 1
+        buyPrice: 28
+        sellPrice: -1 
+        slot: 29
+        page: 2
+      204:
+        type: item
+        item:
+          material: quartz_pillar
+          quantity: 1
+        buyPrice: 31.25
+        sellPrice: -1 
+        slot: 30
+        page: 2
+      205:
+        type: item
+        item:
+          material: WARPED_NYLIUM
+          quantity: 1
+        buyPrice: 6.50
+        sellPrice: -1 
+        slot: 31
+        page: 2
+      206:
+        type: item
+        item:
+          material: CRIMSON_NYLIUM
+          quantity: 1
+        buyPrice: 6.50
+        sellPrice: -1 
+        slot: 32
+        page: 2
+      207:
+        type: item
+        item:
+          material: SOUL_SOIL
+          quantity: 1
+        buyPrice: 10
+        sellPrice: 1 
+        slot: 33
+        page: 2
+      209:
+        type: item
+        item:
+          material: SHROOMLIGHT
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 34
+        page: 2
+      210:
+        type: item
+        item:
+          material: BLACKSTONE
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 1
+        slot: 37
+        page: 2
+      211:
+        type: item
+        item:
+          material: BASALT
+          quantity: 1
+        buyPrice: 8
+        sellPrice: 0.50
+        slot: 38
+        page: 2
+      212:
+        type: item
+        item:
+          material: QUARTZ_BRICKS
+          quantity: 1
+        buyPrice: 13
+        sellPrice: -1
+        slot: 39
+        page: 2
+      213:
+        type: item
+        item:
+          material: CRYING_OBSIDIAN
+          quantity: 1
+        buyPrice: 27.5
+        sellPrice: -1
+        slot: 40
+        page: 2
+      214:
+        type: item
+        item:
+          material: TINTED_GLASS
+          quantity: 1
+        buyPrice: 12.50
+        sellPrice: 0.6
+        slot: 41
+        page: 2
+      215:
+        type: item
+        item:
+          material: calcite
+          quantity: 1
+        buyPrice: 10
+        sellPrice: 0.30
+        slot: 42
+        page: 2
+      216:
+        type: item
+        item:
+          material: TUFF
+          quantity: 1
+        buyPrice: 10
+        sellPrice: 0.30
+        slot: 43
+        page: 2                               
+      217:
+        type: special
+        special: balance
+        slot: 53
+      218:
+        type: special
+        special: balance
+        slot: 53
+        page: 2                                                                                                                                                                               

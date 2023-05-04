@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: glow
+effect-name: glow
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [GLOW_ITEM_FRAME]
+gui-icon-material:
+  - GLOW_ITEM_FRAME

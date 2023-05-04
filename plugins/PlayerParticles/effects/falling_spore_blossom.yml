@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: falling_spore_blossom
+effect-name: falling_spore_blossom
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [FLOWERING_AZALEA]
+gui-icon-material:
+  - FLOWERING_AZALEA

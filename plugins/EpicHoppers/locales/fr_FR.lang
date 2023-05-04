@@ -1,0 +1,87 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Suivant'
+    back: '&9Retour'
+    nameformat: '&fHopper &eniveau %level%'
+    lore: ''
+  word:
+    disabled: Désactivé
+    enabled: Activé
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lActuellement boosté!|&7Taux de transfert d''objets multiplié par &6%amount%x&7.|&7Expire dans &6%time%&7.'
+    upgradewithxp: '&aAmélioration avec de l''EXP'
+    upgradewithxplore: '&7Coût: &a%cost% niveaux'
+    upgradewitheconomy: '&aAmélioration avec de l''argent'
+    upgradewitheconomylore: '&7Coût: &a$%cost%'
+    currentlevel: '&6Hopper de niveau &7%level%'
+    nextlevel: '&6Niveau suivant: &7%level%'
+    range: '&7Portée: &6%range%'
+    amount: '&7Quantité: &6%amount%'
+    teleport: '&7Téléportation: &6%enabled%'
+    filter: '&7Filtre: &6%enabled%'
+    crafting: '&7AutoCraft: &6%enabled%'
+    suction: '&7Aspiration: &6%suction%'
+    autosell: '&7VenteAuto: toutes les &6%seconds%s'
+    linkamount: '&7Surplus synchronisation: &6%amount%'
+    blockbreak: '&7Blocs cassés: &6Tous les %ticks% ticks'
+    alreadymaxed: '&7Ce hopper est déjà maxé !'
+    synclore: '|&7Clic gauche puis cliquez sur un autre|&7hopper ou coffre pour synchroniser!||&7Clic droit pour désynchroniser.|&7Actuellement synchronisé à &6%amount% coffre(s)&7.'
+    perltitle: '&6Cliquez pour vous téléporter'
+    perllore2: '|&7Clic gauche pour vous téléporter à|&7la fin de la chaîne.||&7Clic droit pour changer de|&7mode de déclenchement de téléportation.|&7Actuellement défini sur: &a%type%&7.'
+    filtertitle: '&cCliquez pour filtrer'
+    filterlore: '|&7Cela vous permet de choisir où|&7sera placé un objet donné.'
+    craftingtitle: '&cClic pour mettre en place l''AutoCraft'
+    craftinglore: '|&7Cela vous permet de choisir|&7quel item ce hopper|&7va craft automatiquement.'
+    selltitle: '&6Cliquez pour activer la vente automatique'
+    selllore: '&6Clic droit pour activer/désactiver les Notifications|||&7Vente dans &6%timeleft%s&7.|&7Notifications: &6%state%&7.'
+    blocktitle: '&6Cliquez pour activer la destruction de blocs'
+    blocklore: '|&7La destruction de blocs est actuellement &6%enabled%&7.'
+    suctiontitle: '&6Aspiration'
+    suctionlore: '|&7Clic gauche pour activer/désactiver l''aspiratiob |&7(&6%status%&7).||&7Clic droit pour changer la portée |&7(&6%radius%&7).'
+    synchopper: '&6Cliquez pour synchroniser ce hopper'
+    rejectsync: '&6Cliquez pour synchroniser où les objets rejetés iront'
+  filter:
+    infotitle: '&aGuide de filtrage'
+    infolore: '&7Tout items placés dans l''espace à gauche|&7seront placés dans la liste blanche.||&7Tout items placés à droite|&7seront jetés.||&7Tout items placés dans l''espace au milieu|&7seront sur la liste noire.'
+    whitelist: '&f&lListe blanche'
+    blacklist: '&8&lListe noire'
+    void: '&c&lRejets'
+# Command Messages
+command:
+  give:
+    success: '&7Vous avez reçu un hopper &6niveau %level%.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cVous n''avez pas la permission d''effectuer cette commande.'
+  upgrade:
+    cannotafford: '&cVous n''avez pas assez d''argent pour faire cette amélioration.'
+    success: '&7Vous avez amélioré ce hopper au &6niveau %level%&7!'
+    maxed: '&7Vous avez amélioré ce hopper au maximum, &6niveau %level%&7.'
+  inventory:
+    noroom: '&7Vous n''avez pas assez de place dans votre inventaire.'
+  hopper:
+    syncsuccess: '&aSynchronisation réussie.'
+    syncsuccessmore: '&7Vous avez &6%amount% &7synchronisation(s) restante(s).'
+    desync: '&7Vous avez désynchronisé ce hopper.'
+    syncnext: '&7Cliquez sur un autre coffre ou hopper pour le synchroniser.'
+    syncdone: '&aVous avez utilisé le nombre maximum de synchronisations.'
+    already: '&cCe hopper est déjà synchronisé.'
+    synctimeout: '&cSynchronisation expirée.'
+    synccanceled: '&cSynchronisation annulée.'
+    syncstart: '&7Il vous reste &6%amount% &7synchronisations. Lorsque vous aurez terminé, cliquez sur le premier hopper.'
+    syncfinish: '&7Synchronisation terminée.'
+    syncoutofrange: '&cCe bloc est hors portée de votre hopper.'
+    syncdidnotplace: '&cDésolé! Vous devez avoir placé ce hopper pour synchroniser des choses avec.'
+    toomany: '&cVous pouvez seulement placer %amount% hoppers par chunk...'
+    walkteleenabled: Téléportation activée pour ce hopper.
+    walkteledisabled: La téléportation lors de la marche a été désactivée pour ce hopper.
+    onlyone: '&cVous ne pouvez placer qu''un seul objet à la fois.'
+    syncchest: '&7Vous avez synchronisé votre &9%name% &7avec ce coffre.'
+    desyncchest: '&7Vous avez désynchronisé votre &9%name% &7avec ce coffre.'
+    autosell: '&7Votre hopper a vendu &6%items% &7objets(s) pour une valeur totale de &6$%amount%&7.'

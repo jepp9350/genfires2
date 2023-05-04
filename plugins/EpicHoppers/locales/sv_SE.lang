@@ -1,0 +1,92 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Nästa'
+    back: '&9Tillbaka'
+    nameformat: '&eNivå %level% &fhoppare'
+    lore: ''
+  word:
+    disabled: INAKTIVERAT
+    enabled: AKTIVERAT
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lFör närvarande förstärkt!|&7Föremålens överföringshastighet multiplicerad med &6%amount%x&7.|&7Går ut om &6%time%&7.'
+    upgradewithxp: '&aUppgradera med XP'
+    upgradewithxplore: '&7Kostar: &a%cost% Nivåer'
+    upgradewitheconomy: '&aUppgradera med ECO'
+    upgradewitheconomylore: '&7Kostar: &a$%cost%'
+    currentlevel: '&6Hoppare nivå &7%level%'
+    nextlevel: '&6Nästa nivå &7%level%'
+    range: '&7Räckvidd: &6%range%'
+    amount: '&7Antal: &6%amount%'
+    teleport: '&7Teleportera: &6%enabled%'
+    filter: '&7Filter: &6%enabled%'
+    crafting: '&7AutoCrafting: &6%enabled%'
+    suction: '&7Sugning: &6%suction%'
+    autosell: '&7AutoSälj: Varje &6%seconds%s'
+    linkamount: '&7Länköverflöde: &6%amount%'
+    blockbreak: '&7Ta sönder blocks: &6Varje %ticks% ticks'
+    alreadymaxed: '&7Denna hopparen har redan maxats ut!'
+    synclore: '|&7Vänsterklicka och klicka sedan på en annan|&7hoppare eller kista för att länka!||&7Högerklicka för att ta bort länken.|&7För närvarande länkad till &6%amount% behållare&7.'
+    perltitle: '&6Klicka för att teleportera'
+    perllore2: '|&7Vänsterklicka för att teleportera till|&7slutet av kedjan.||&7Högerklicka för att växla|&7teleport trigger-läge.|&7För närvarande inställd på: &a%type%&7.'
+    filtertitle: '&cKlicka för att filtrera'
+    filterlore: '|&7Detta gör att du kan välja|&7vilka föremål som går vart.'
+    craftingtitle: '&cKlicka för att ställa in AutoCrafting'
+    craftinglore: '|&7Detta gör att du kan välja|&7vilka föremål den här hopparen|&7craftar automatiskt.'
+    selltitle: '&6Vänsterklicka för att växla AutoSälj'
+    selllore: '&6Högerklicka för att växla Aviseringar |&6Skift-klicka för att öppna AutoSell-filter||&7Säljer om &6%timeleft%s&7.|&7Aviseringar : &6%state%&7.'
+    blocktitle: '&6Klicka för att växla BlockBreak'
+    blocklore: '|&7BlockBreak är inställt på &6%enabled%&7.'
+    suctiontitle: '&6Sugning'
+    suctionlore: '|&7Vänsterklicka för att växla sug |&7(&6%status%&7).||&7Högerklicka för att ställa in radie |&7(&6%radius%&7).'
+    synchopper: '&6Klicka för att länka den här hopparen'
+    rejectsync: '&6Klicka för att länka avvisade föremål'
+  filter:
+    infotitle: '&aFilterguide'
+    infolore: '&7Föremål placerade i kolumnen längst i vänster|&7utrymme kommer att bli vitlistade.||&7Föremål placerade i den högra kolumnen|&7kommer att bli ogiltig.||&7Föremål placerade i mittkolumnen|&7kommer att bli svartlistade.'
+    whitelist: '&f&lVitlista'
+    blacklist: '&8&lSvartlista'
+    void: '&c&lTomhet'
+  autosell-filter:
+    infotitle: '&aFilterguide'
+    infolore: '&7Föremål placerade i kolumnen längst i vänster|&7utrymme kommer att bli vitlistade för AutoSälj.||&7Föremål placerade i den högra kolumnen|&7kommer att bli svartlistade från AutoSell.'
+    whitelist: '&f&lVitlista'
+    blacklist: '&8&lSvartlista'
+# Command Messages
+command:
+  give:
+    success: '&7Du har fått en &6nivå %level% &7hoppare.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu har inte tillåtelse för det!'
+  upgrade:
+    cannotafford: '&cDu har inte råd med den här uppgraderingen.'
+    success: '&7Du har uppgraderat denna hoppare till &6nivå %level%&7!'
+    maxed: '&7Du maxade ut den här hopparen vid &6nivå %level%&7.'
+  inventory:
+    noroom: '&7Du har inte utrymme i ditt inventory för detta.'
+  hopper:
+    syncsuccess: '&aLänkade.'
+    syncsuccessmore: '&7Du har &6%amount% &7mer länkningar kvar.'
+    desync: '&7Du har tagit bort länkningen.'
+    syncnext: '&7Klicka på en annan hoppare för att länka.'
+    syncdone: '&aDu har maxat ut dina länkningar.'
+    already: '&cDen här hopparen är redan länkad.'
+    synctimeout: '&cLänken avbröts.'
+    synccanceled: '&cLänk avbruten.'
+    syncstart: '&7Du har &6%amount% &7länkar tillgängliga. Klicka på originalhopparen när du är klar.'
+    syncfinish: '&7Länkningen är klar.'
+    syncoutofrange: '&cDet här blocket ligger utanför ditt hoppers radie.'
+    syncdidnotplace: '&cDu måste ha placerat den här hopparen för att länka saker till den.'
+    toomany: '&cDu kan bara placera %amount% hoppare per chunk...'
+    walkteleenabled: Teleportering har aktiverats för den här hopparen.
+    walkteledisabled: Gå på teleportering har inaktiverats för den här hopparen.
+    onlyone: '&cDu får bara placera ett enda föremål åt gången.'
+    syncchest: '&7Du har länkat din &9%name% &7med denna kistan.'
+    desyncchest: '&7Du har tagit bort länkningen för din &9%name% &7med denna kistan.'
+    autosell: '&7Din hoppare sålde &6%items% &7föremål värt &6$%amount%&7.'

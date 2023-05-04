@@ -1,0 +1,50 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 12
+npc:
+  '12':
+    name: §8[§eFarmer§8] §fJohn
+    uuid: 0cd1834f-85cd-4c6a-9ef6-fc4d8b2580fe
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      type: PLAYER
+      spawned: true
+      anchors:
+        list:
+          '0': farming_center_location;bskyblock_world;-4.5;85.5;0.5
+      location:
+        bodyYaw: 0.0
+        world: bskyblock_world
+        x: '-4.5'
+        y: '85.0'
+        z: '0.5'
+        yaw: '0.0'
+        pitch: '0.0'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': farmer_npc_main
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: false
+          DAMAGE: false
+        properly_set:
+          CHAT: false
+          CLICK: true
+          PROXIMITY: false
+          DAMAGE: false
+        duration:
+          CLICK: 5.0
+          PUSH: 5.0
+    traitnames: anchors,spawned,scoreboardtrait,assignment,triggers,mounttrait,type,skintrait,constants,hologramtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

@@ -1,0 +1,13 @@
+{
+  "JoinServerMinecraftVote": "https://serveur-minecraft-vote.fr/",
+  "distanceOnDrop": 8.0,
+  "disableItemDespawn": false,
+  "disableVersionChecker": false,
+  "itemName": "§6x%amount% §e%item%",
+  "expireItemSeconds": 604800,
+  "enablePickupSound": false,
+  "disableEntityPickUp": true,
+  "disableAds": true,
+  "disableItemNameIfItsOne": false,
+  "pickupSound": "BLOCK_NOTE_BLOCK_PLING"
+}

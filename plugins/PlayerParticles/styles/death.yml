@@ -1,0 +1,45 @@
+# The name the style will display as
+# Default: death
+style-name: death
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: false
+can-be-fixed: false
+
+# If the style will toggle to a different appearance when the player is moving
+# Also requires the setting in the config.yml to be enabled
+# Default: false
+can-toggle-with-movement: false
+
+# If particles for this style will be hidden if the player is in combat
+# Also requires the setting in the config.yml to be enabled
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.0
+fixed-effect-offset: 0.0
+
+# The material of the icon to display in the GUI
+# Default: [TOTEM_OF_UNDYING, TOTEM, BED]
+gui-icon-material:
+  - TOTEM_OF_UNDYING
+  - TOTEM
+  - BED
+
+# The name of the style to be displayed
+# Default: whirl
+style: whirl
+
+# How long to display the particles for
+# Default: 60
+target-duration: 60
+
+# What damage types shouldn't spawn particles?
+# Default: [DROWNING]
+disabled-causes:
+  - DROWNING

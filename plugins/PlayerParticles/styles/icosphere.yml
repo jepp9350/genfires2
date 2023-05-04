@@ -1,0 +1,58 @@
+# The name the style will display as
+# Default: icosphere
+style-name: icosphere
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will toggle to a different appearance when the player is moving
+# Also requires the setting in the config.yml to be enabled
+# Default: true
+can-toggle-with-movement: true
+
+# If particles for this style will be hidden if the player is in combat
+# Also requires the setting in the config.yml to be enabled
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.0
+fixed-effect-offset: 0.0
+
+# The material of the icon to display in the GUI
+# Default: [MAGMA_CREAM]
+gui-icon-material:
+  - MAGMA_CREAM
+
+# The radius of the sphere
+# Default: 3.0
+radius: 3.0
+
+# The number of particles to spawn per tick
+# Default: 8
+particles-per-line: 8
+
+# The number of divisions to make, more divisions will be closer to an actual sphere
+# Default: 1
+divisions: 1
+
+# The angular velocity on the x-axis
+# Default: 0.00314159265
+angular-velocity-x: 0.00314159265
+
+# The angular velocity on the y-axis
+# Default: 0.00369599135
+angular-velocity-y: 0.00369599135
+
+# The angular velocity on the z-axis
+# Default: 0.00405366794
+angular-velocity-z: 0.00405366794
+
+# How many ticks to wait between particle spawns
+# Default: 5
+ticks-per-spawn: 5

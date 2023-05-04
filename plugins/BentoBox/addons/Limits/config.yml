@@ -1,0 +1,43 @@
+# Game Modes covered by limits
+gamemodes:
+- AcidIsland
+- BSkyBlock
+- CaveBlock
+
+# Ignore this island's center block. For most worlds, this is bedrock, but for AOneBlock it is
+# the magic block, so ignoring it from limits makes sense.
+ignore-center-block: true
+
+# Permissions
+# Island owners can be given permissions that override all general settings
+# Format is GAME-MODE-NAME.island.limit.MATERIAL.LIMIT
+# example: bskyblock.island.limit.hopper.10
+# permission activates when player logs in.
+#
+# Cooldown for player recount command in seconds
+cooldown: 120
+
+# Use async checks for snowmen and iron golums. Set to false if you see problems.
+async-golums: true
+
+# General block limiting
+# Use this section to limit how many blocks can be added to an island.
+# 0 means the item will be blocked from placement completely.
+# These limits apply to every game mode world
+blocklimits:
+  HOPPER: 100
+# This section is for world-specific limits and overrides the general limit
+# Specify each world you want to limit individually (including nether and end worlds)
+# If these worlds are not covered by the game modes above, nothing will happen
+worlds:
+  AcidIsland_world:
+    HOPPER: 11
+
+# Default entity limits within a player's island space (protected area and to island limit).
+# A limit of 5 will allow up to 5 entities in over world, 5 in nether and 5 in the end.
+# Affects all types of creature spawning. Also includes entities like MINECARTS.
+# Note: Only the first 49 limited blocks and entities are shown in the limits GUI.
+entitylimits:
+  ENDERMAN: 5
+  CHICKEN: 10
+  

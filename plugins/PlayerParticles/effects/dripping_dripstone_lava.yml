@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: dripping_dripstone_lava
+effect-name: dripping_dripstone_lava
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [POINTED_DRIPSTONE]
+gui-icon-material:
+  - POINTED_DRIPSTONE

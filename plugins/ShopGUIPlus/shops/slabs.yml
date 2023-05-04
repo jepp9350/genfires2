@@ -1,0 +1,300 @@
+  slabs:
+    name: "&8&nSlabs [page %page%/1]"
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: ""  
+    items:
+       1:
+        type: item
+        item:
+          material: andesite_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 10
+       2:
+        type: item
+        item:
+          material: brick_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 11
+       3:
+        type: item
+        item:
+          material: cobblestone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 12
+       4:
+        type: item
+        item:
+          material: cut_red_sandstone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 13 
+       5:
+        type: item
+        item:
+          material: cut_sandstone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 14  
+       6:
+        type: item
+        item:
+          material: dark_prismarine_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 15    
+       7:
+        type: item
+        item:
+          material: diorite_slab 
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 16      
+       8:
+        type: item
+        item:
+          material: end_stone_brick_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 19      
+       9:
+        type: item
+        item:
+          material: granite_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 20
+       10:
+        type: item
+        item:
+          material: mossy_cobblestone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 21
+       11:
+        type: item
+        item:
+          material: mossy_stone_brick_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 22
+       12:
+        type: item
+        item:
+          material: nether_brick_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 23
+       13:
+        type: item
+        item:
+          material: polished_andesite_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 24
+       14:
+        type: item
+        item:
+          material: polished_diorite_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 25 
+       15:
+        type: item
+        item:
+          material: polished_granite_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 28
+       16:
+        type: item
+        item:
+          material: prismarine_brick_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 29
+       17:
+        type: item
+        item:
+          material: prismarine_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 30
+       18:
+        type: item
+        item:
+          material: quartz_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 31
+       19:
+        type: item
+        item:
+          material: red_nether_brick_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 32
+       20:
+        type: item
+        item:
+          material: red_sandstone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 33
+       21:
+        type: item
+        item:
+          material: sandstone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 34
+       22:
+        type: item
+        item:
+          material: smooth_quartz_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 37
+       23:
+        type: item
+        item:
+          material: smooth_red_sandstone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 38
+       24:
+        type: item
+        item:
+          material: smooth_sandstone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 39
+       25:
+        type: item
+        item:
+          material: smooth_stone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 40
+       26:
+        type: item
+        item:
+          material: stone_brick_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 41   
+       27:
+        type: item
+        item:
+          material: stone_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 42
+       28:
+        type: item
+        item:
+          material: BLACKSTONE_SLAB
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 43
+       29:
+        type: item
+        item:
+          material: POLISHED_BLACKSTONE_SLAB
+          quantity: 1
+        buyPrice: 7.25
+        sellPrice: -1
+        slot: 10
+        page: 2
+       30:
+        type: item
+        item:
+          material: POLISHED_BLACKSTONE_BRICK_SLAB
+          quantity: 1
+        buyPrice: 7.25
+        sellPrice: -1
+        slot: 11
+        page: 2
+       31:
+        type: item
+        item:
+          material: cobbled_deepslate_slab
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 12
+        page: 2
+       32:
+        type: item
+        item:
+          material: polished_deepslate_slab
+          quantity: 1
+        buyPrice: 7.25
+        sellPrice: -1
+        slot: 13
+        page: 2
+       33:
+        type: item
+        item:
+          material: deepslate_brick_slab
+          quantity: 1
+        buyPrice: 7.25
+        sellPrice: -1
+        slot: 14
+        page: 2
+       34:
+        type: item
+        item:
+          material: deepslate_tile_slab
+          quantity: 1
+        buyPrice: 7.25
+        sellPrice: -1
+        slot: 15
+        page: 2                                
+       35:
+        type: special
+        special: balance
+        slot: 53
+       36:
+        type: special
+        special: balance
+        slot: 53
+        page: 2                                      

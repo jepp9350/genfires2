@@ -1,0 +1,105 @@
+  misc:
+    name: "&8&nMiscellaneous [page %page%/1]"
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: "" 
+    items:
+       1:
+        type: item
+        item:
+          material: water_bucket
+          quantity: 1
+        buyPrice: 500
+        sellPrice: -1
+        slot: 11
+       3:
+        type: item
+        item:
+          material: HOPPER
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: -1
+        slot: 12
+       4:
+        type: item
+        item:
+          material: CHEST
+          quantity: 1
+        buyPrice: 30
+        sellPrice: -1
+        slot: 13
+       9:
+        type: item
+        item:
+          material: KELP
+          quantity: 1
+        buyPrice: 35
+        sellPrice: -1
+        slot: 14
+       5:
+        type: item
+        item:
+          material: ICE
+          quantity: 1
+        buyPrice: 25
+        sellPrice: 3
+        slot: 15
+       6:
+        type: item
+        item:
+          material: PACKED_ICE
+          quantity: 1
+        buyPrice: 30
+        sellPrice: 6
+        slot: 20
+       7:
+        type: item
+        item:
+          material: SOUL_SAND
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 10
+        slot: 21
+       8:
+        type: item
+        item:
+          material: MAGMA_BLOCK
+          quantity: 1
+        buyPrice: 100
+        sellPrice: 10
+        slot: 22
+       10:
+        type: item
+        item:
+          material: OAK_SIGN
+          quantity: 1
+        buyPrice: 50
+        sellPrice: 10
+        slot: 23
+       11:
+        type: item
+        item:
+          material: BEACON
+          quantity: 1
+        buyPrice: 50000
+        sellPrice: 5000
+        slot: 24
+       12:
+        type: item
+        item:
+          material: NOTE_BLOCK
+          quantity: 1
+        buyPrice: 2500
+        sellPrice: 10
+        slot: 31
+       28:
+        type: special
+        special: balance
+        slot: 53        

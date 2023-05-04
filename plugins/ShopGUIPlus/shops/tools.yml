@@ -1,0 +1,209 @@
+  tools:
+    name: "&8&nTools [page %page%/1]"
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: "" 
+    items:
+       1:
+        type: item
+        item:
+          material: diamond_pickaxe       
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 11       
+       2:
+        type: item      
+        item:
+          material: diamond_axe        
+          quantity: 1
+        buyPrice: 1000 
+        sellPrice: -1
+        slot: 20
+       3:
+        type: item      
+        item:
+          material: diamond_shovel      
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 29
+       4:
+        type: item      
+        item:
+          material: diamond_hoe      
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 38
+       5:
+        type: item      
+        item:
+          material: shears      
+          quantity: 1
+        buyPrice: 200
+        sellPrice: -1
+        slot: 43
+       6:
+        type: item      
+        item:
+          material: lead       
+          quantity: 2
+        buyPrice: 200 
+        sellPrice: -1
+        slot: 16
+       7:
+        type: item      
+        item:
+          material: iron_pickaxe     
+          quantity: 1
+        buyPrice: 700
+        sellPrice: -1
+        slot: 12
+       8:
+        type: item      
+        item:
+          material: iron_axe     
+          quantity: 1
+        buyPrice: 700
+        sellPrice: -1
+        slot: 21
+       9:
+        type: item      
+        item:
+          material: iron_shovel       
+          quantity: 1
+        buyPrice: 700
+        sellPrice: -1
+        slot: 30
+       10:
+        type: item      
+        item:
+          material: iron_hoe        
+          quantity: 1
+        buyPrice: 600
+        sellPrice: -1
+        slot: 39
+       11:
+        type: item      
+        item:
+          material: fishing_rod      
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 34
+       12:
+        type: item      
+        item:
+          material: flint_and_steel      
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 25
+       13:
+        type: item      
+        item:
+          material: golden_pickaxe        
+          quantity: 1
+        buyPrice: 450
+        sellPrice: -1
+        slot: 13
+       14:
+        type: item      
+        item:
+          material: golden_axe     
+          quantity: 1
+        buyPrice: 450
+        sellPrice: -1
+        slot: 22
+       15:
+        type: item      
+        item:
+          material: golden_shovel        
+          quantity: 1
+        buyPrice: 450
+        sellPrice: -1
+        slot: 31
+       16:
+        type: item      
+        item:
+          material: golden_hoe    
+          quantity: 1
+        buyPrice: 400
+        sellPrice: -1
+        slot: 40
+       17:
+        type: item      
+        item:
+          material: stone_pickaxe      
+          quantity: 1
+        buyPrice: 200 
+        sellPrice: -1
+        slot: 14
+       18:
+        type: item      
+        item:
+          material: stone_axe        
+          quantity: 1
+        buyPrice: 200
+        sellPrice: -1
+        slot: 23
+       19:
+        type: item      
+        item:
+          material: stone_shovel      
+          quantity: 1
+        buyPrice: 200 
+        sellPrice: -1
+        slot: 32
+       20:
+        type: item      
+        item:
+          material: stone_hoe      
+          quantity: 1
+        buyPrice: 200
+        sellPrice: -1
+        slot: 41
+       21:
+        type: item      
+        item:
+          material: netherite_pickaxe    
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 10
+       22:
+        type: item      
+        item:
+          material: netherite_axe   
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 19
+       23:
+        type: item      
+        item:
+          material: netherite_shovel  
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 28
+       24:
+        type: item      
+        item:
+          material: netherite_hoe
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 37
+       25:
+        type: special
+        special: balance
+        slot: 53

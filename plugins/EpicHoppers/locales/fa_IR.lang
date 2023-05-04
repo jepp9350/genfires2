@@ -1,0 +1,83 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Bad'
+    back: '&9Ghabl'
+    nameformat: '&fLevel &eHopper %level%'
+    lore: ''
+  word:
+    disabled: Gheire Faal
+    enabled: Faal
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lDar hale hazer boost shode ast!|&7Sorat jabejayi item &6%amount%x&7 barabaar shode ast.|&7Zaman Engheza:&6%time%&7.'
+    upgradewithxp: '&aErtegha ba XP'
+    upgradewithxplore: '&7Hazine: &a%cost% level'
+    upgradewitheconomy: '&aErtegha ba POOL'
+    upgradewitheconomylore: '&7Hazine: &a$%cost%'
+    currentlevel: '&6Hopper Level &7%level%'
+    nextlevel: '&6Level bad &7%level%'
+    range: '&7Mahdode: &6%range%'
+    amount: '&7Tedad: &6%amount%'
+    teleport: '&7Teleport: &6%enabled%'
+    filter: '&7Saafii: &6%enabled%'
+    crafting: '&7Sakhtan khodkar: &6%enabled%'
+    suction: '&7Makesh: &6%suction%'
+    autosell: '&7Furush Automatic: Har &6%seconds%s'
+    linkamount: '&7Tedad etesal: &6%amount%'
+    blockbreak: '&7Kandan block: &6Har %ticks% tick'
+    alreadymaxed: '&7In Hopper be akharin level reside!'
+    synclore: '|&7Click chap konid sepas bar roye|&7hopper ya chest baraye etesal click konid!||&7Baraye ghatee etesal click rast konid.'
+    perltitle: '&6Baraye teleport click konid'
+    perllore2: '|&7Click chap konid baraye teleport shodan|&7be akhar in zanjire.||&7Click rast konid baraye taghir|&7nahve teleport.|&7Dar hale hazer rpye &a%type%&7 gharar darad.'
+    filtertitle: '&cBaraye Filter click konid'
+    filterlore: '|&7In be shoma ejaze midahad ta entekhab konid|&7kodam item koja beravad.'
+    craftingtitle: '&cBaraye anjam tanzimat khodkar click konid'
+    craftinglore: '|&7In be shoma ejaze midahad ta entekhab konid|&7kodam item dar in hopper|&7be sorat khodkar sakhte shavad.'
+    selltitle: '&6Chap-Click baraye taghir vaziat Furush Khodkar'
+    selllore: '&6Rast-Click baraye taghir vaziat notification ha||&7Furush dar &6%timeleft%s&7.|&7Notification ha: &6%state%&7.'
+    blocktitle: '&6Baraye taghir vaziat block kandan click konid'
+    blocklore: '|&7Kandan block tanzim shod be &6%enabled%&7.'
+    synchopper: '&6Baraye motasel kardan in hopper click konid'
+    rejectsync: '&6Barae motasel kardan item haye blacklist click konid'
+  filter:
+    infotitle: '&aAmozesh Filter'
+    infolore: '&7Item haye bala samte chap|&7whitelist hastand.||&7Iteem haye samt rast|&7pooch hastand.||&7Item haye payin samte chap|&7blacklist hastand.||&cEstafade kardab az whitelist hengam|&cestefade az blacklist va pooch be sorat ham zaman gheyre faal ast.'
+    whitelist: '&f&lWhite List'
+    blacklist: '&8&lBlack List'
+    void: '&c&lPooch'
+# Command Messages
+command:
+  give:
+    success: '&7Shoma Hopper &6level %level% &7gereftid.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cShoma ejaze anjam in kar ra nadarid.'
+  upgrade:
+    cannotafford: '&cErtegha Emal nashod.'
+    success: '&7Shoma in Hopper ra be &6level %level%&7 ertegha dadid!'
+    maxed: '&7Shoma in Hopper ra be akharin levle ertegha dadid &6level %level%&7.'
+  inventory:
+    noroom: '&7Shoma baraye in Hopper fazaye khali dar inventory khod nadarid.'
+  hopper:
+    syncsuccess: '&aEtesal ba movafaghiat anjam shod.'
+    syncsuccessmore: '&7Shoma hanuz &6%amount% &7Etesal digar darid.'
+    desync: '&7Etesal shoma ba movafaghiat ghaat shod.'
+    syncnext: '&7Baraye etesal bar roye Hopper ya Chest click konid.'
+    syncself: '&cShoma nemitavanid Hopper ra be khodash motasel konid.'
+    syncdone: '&aShoma hame etesal haye mojazetan ra masraf kardid.'
+    already: '&cIn hopper ghablan motasel shode.'
+    synctimeout: '&cZaman etesal tamam shod.'
+    syncoutofrange: '&cIn block kharej az mahdode hopper shoma hast.'
+    syncdidnotplace: '&cShoma baraye sync kardan item ebteda bayad Hopper ra begozarid!'
+    toomany: '&cShoma tanha mitavanid %amount% adad Hopper dar har chunk begozarid.'
+    walkteleenabled: Teleport baraye in hopper faal shod.
+    walkteledisabled: Teleport shodan ba rah raftan baraye in hopper gheyre faal shod.
+    onlyone: '&cShooma faghat mitavanid yek item daron inja gharar dahid.'
+    syncchest: '&7Shoma &9%name% &7khod ra be in Chest etesal dadid.'
+    desyncchest: '&7Shoma Etesal &9%name% &7ra ba chest ghaat kardid.'
+    autosell: '&7Hopper shoma &6%items% &7item forukht be arzesh &6$%amount%&7.'

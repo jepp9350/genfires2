@@ -1,0 +1,1819 @@
+  banners:
+    name: "&8&nBanners [page %page%/3]"
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: "" 
+    items:
+       1:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: RED_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: CURLY_BORDER
+              color: ORANGE
+            2:
+              type: GRADIENT
+              color: ORANGE
+            3:
+              type: BORDER
+              color: BLACK
+            4:
+              type: TRIANGLES_BOTTOM
+              color: BLACK
+            5:
+              type: TRIANGLES_TOP
+              color: BLACK
+            6:
+              type: STRIPE_SMALL
+              color: BLACK
+        buyPrice: 100
+        sellPrice: -1
+        slot: 10
+       2:
+        type: item
+        item:
+          name: "&aLetter A"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: RHOMBUS_MIDDLE
+              color: WHITE
+            2:
+              type: TRIANGLE_BOTTOM
+              color: WHITE
+            3:
+              type: STRIPE_RIGHT
+              color: BLACK
+            4:
+              type: STRIPE_LEFT
+              color: BLACK
+            5:
+              type: STRIPE_MIDDLE
+              color: BLACK
+            6:
+              type: BORDER
+              color: WHITE
+        buyPrice: 100
+        sellPrice: -1
+        slot: 11
+       3:
+        type: item
+        item:
+          name: "&aLetter B"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: BORDER
+              color: WHITE
+            2:
+              type: STRIPE_LEFT
+              color: WHITE
+            3:
+              type: STRIPE_MIDDLE
+              color: WHITE
+            4:
+              type: CURLY_BORDER
+              color: WHITE
+        buyPrice: 100
+        sellPrice: -1
+        slot: 12
+       4:
+        type: item
+        item:
+          name: "&aLetter C"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            2:
+              type: STRIPE_TOP
+              color: BLACK
+            3:
+              type: RHOMBUS_MIDDLE
+              color: WHITE
+            4:
+              type: STRIPE_LEFT
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE              
+        buyPrice: 100
+        sellPrice: -1
+        slot: 13
+       5:
+        type: item
+        item:
+          name: "&aLetter D"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: HALF_VERTICAL
+              color: BLACK
+            2:
+              type: STRIPE_RIGHT
+              color: BLACK
+            3:
+              type: STRIPE_TOP
+              color: BLACK
+            4:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE              
+        buyPrice: 100
+        sellPrice: -1
+        slot: 14
+       6:
+        type: item
+        item:
+          name: "&aLetter E"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_LEFT
+              color: BLACK
+            2:
+              type: STRIPE_MIDDLE
+              color: BLACK
+            3:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            4:
+              type: STRIPE_TOP
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE              
+        buyPrice: 100
+        sellPrice: -1
+        slot: 15
+       7:
+        type: item
+        item:
+          name: "&aLetter F"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_LEFT
+              color: BLACK
+            2:
+              type: STRIPE_MIDDLE
+              color: BLACK
+            3:
+              type: STRIPE_TOP
+              color: BLACK
+            4:
+              type: BORDER
+              color: WHITE
+            5:
+              type: SQUARE_BOTTOM_RIGHT
+              color: WHITE              
+        buyPrice: 100
+        sellPrice: -1
+        slot: 16
+       8:
+        type: item
+        item:
+          name: "&aLetter G"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: HALF_HORIZONTAL_MIRROR
+              color: BLACK
+            2:
+              type: HALF_VERTICAL
+              color: WHITE
+            3:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            4:
+              type: STRIPE_LEFT
+              color: BLACK
+            5:
+              type: STRIPE_TOP
+              color: BLACK
+            6:
+              type: BORDER
+              color: WHITE                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 19
+       9:
+        type: item
+        item:
+          name: "&aLetter H"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_RIGHT
+              color: BLACK
+            2:
+              type: STRIPE_LEFT
+              color: BLACK
+            3:
+              type: STRIPE_MIDDLE
+              color: BLACK
+            4:
+              type: BORDER
+              color: WHITE                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 20
+       10:
+        type: item
+        item:
+          name: "&aLetter I"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_CENTER
+              color: BLACK
+            2:
+              type: STRIPE_TOP
+              color: BLACK
+            3:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            4:
+              type: BORDER
+              color: WHITE                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 21
+       11:
+        type: item
+        item:
+          name: "&aLetter J"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_LEFT
+              color: BLACK
+            2:
+              type: HALF_HORIZONTAL
+              color: WHITE
+            3:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            4:
+              type: STRIPE_RIGHT
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE                                    
+        buyPrice: 100
+        sellPrice: -1
+        slot: 22
+       12:
+        type: item
+        item:
+          name: "&aLetter K"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_DOWNRIGHT
+              color: BLACK
+            2:
+              type: DIAGONAL_LEFT
+              color: WHITE
+            3:
+              type: STRIPE_DOWNLEFT
+              color: BLACK
+            4:
+              type: STRIPE_LEFT
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE                                    
+        buyPrice: 100
+        sellPrice: -1
+        slot: 23
+       13:
+        type: item
+        item:
+          name: "&aLetter L"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            2:
+              type: STRIPE_LEFT
+              color: BLACK
+            3:
+              type: BORDER
+              color: WHITE                                  
+        buyPrice: 100
+        sellPrice: -1
+        slot: 24
+       14:
+        type: item
+        item:
+          name: "&aLetter M"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: TRIANGLE_TOP
+              color: BLACK
+            2:
+              type: TRIANGLES_TOP
+              color: WHITE
+            3:
+              type: STRIPE_LEFT
+              color: BLACK
+            4:
+              type: STRIPE_RIGHT
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE                                    
+        buyPrice: 100
+        sellPrice: -1
+        slot: 25
+       15:
+        type: item
+        item:
+          name: "&aLetter N"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_DOWNRIGHT
+              color: BLACK
+            2:
+              type: TRIANGLES_TOP
+              color: WHITE
+            3:
+              type: STRIPE_LEFT
+              color: BLACK
+            4:
+              type: STRIPE_RIGHT
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE                                    
+        buyPrice: 100
+        sellPrice: -1
+        slot: 28
+       16:
+        type: item
+        item:
+          name: "&aLetter O"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_TOP
+              color: BLACK
+            2:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            3:
+              type: RHOMBUS_MIDDLE
+              color: WHITE
+            4:
+              type: STRIPE_RIGHT
+              color: BLACK
+            5:
+              type: STRIPE_LEFT
+              color: BLACK
+            6:
+              type: BORDER
+              color: WHITE                                             
+        buyPrice: 100
+        sellPrice: -1
+        slot: 29
+       17:
+        type: item
+        item:
+          name: "&aLetter P"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_RIGHT
+              color: BLACK
+            2:
+              type: HALF_HORIZONTAL_MIRROR
+              color: WHITE
+            3:
+              type: STRIPE_LEFT
+              color: BLACK
+            4:
+              type: STRIPE_TOP
+              color: BLACK
+            5:
+              type: STRIPE_MIDDLE
+              color: BLACK
+            6:
+              type: BORDER
+              color: WHITE                                             
+        buyPrice: 100
+        sellPrice: -1
+        slot: 30
+       18:
+        type: item
+        item:
+          name: "&aLetter Q"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: RHOMBUS_MIDDLE
+              color: WHITE
+            2:
+              type: STRIPE_LEFT
+              color: BLACK
+            3:
+              type: STRIPE_RIGHT
+              color: BLACK
+            4:
+              type: SQUARE_BOTTOM_RIGHT
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE                                            
+        buyPrice: 100
+        sellPrice: -1
+        slot: 31
+       19:
+        type: item
+        item:
+          name: "&aLetter R"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: HALF_HORIZONTAL
+              color: BLACK
+            2:
+              type: SKULL
+              color: WHITE
+            3:
+              type: STRIPE_DOWNRIGHT
+              color: BLACK
+            4:
+              type: STRIPE_MIDDLE
+              color: BLACK
+            5:
+              type: STRIPE_LEFT
+              color: BLACK
+            6:
+              type: BORDER
+              color: WHITE                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 32
+       20:
+        type: item
+        item:
+          name: "&aLetter S"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_TOP
+              color: BLACK
+            2:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            3:
+              type: RHOMBUS_MIDDLE
+              color: WHITE
+            4:
+              type: STRIPE_DOWNRIGHT
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE
+            6:
+              type: CURLY_BORDER
+              color: WHITE                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 33
+       21:
+        type: item
+        item:
+          name: "&aLetter T"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_TOP
+              color: BLACK
+            2:
+              type: STRIPE_CENTER
+              color: BLACK
+            3:
+              type: BORDER
+              color: WHITE                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 34
+       22:
+        type: item
+        item:
+          name: "&aLetter U"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_LEFT
+              color: BLACK
+            2:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            3:
+              type: STRIPE_RIGHT
+              color: BLACK
+            4:
+              type: BORDER
+              color: WHITE                                                                       
+        buyPrice: 100
+        sellPrice: -1
+        slot: 37
+       24:
+        type: item
+        item:
+          name: "&aLetter V"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_LEFT
+              color: BLACK
+            2:
+              type: TRIANGLE_BOTTOM
+              color: WHITE
+            3:
+              type: STRIPE_DOWNLEFT
+              color: BLACK                                                                       
+        buyPrice: 100
+        sellPrice: -1
+        slot: 38
+       25:
+        type: item
+        item:
+          name: "&aLetter W"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: TRIANGLE_BOTTOM
+              color: BLACK
+            2:
+              type: TRIANGLES_BOTTOM
+              color: WHITE
+            3:
+              type: STRIPE_RIGHT
+              color: BLACK
+            4:
+              type: STRIPE_LEFT
+              color: BLACK
+            5:
+              type: BORDER
+              color: WHITE                                                                                    
+        buyPrice: 100
+        sellPrice: -1
+        slot: 39
+       26:
+        type: item
+        item:
+          name: "&aLetter X"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_DOWNRIGHT
+              color: BLACK
+            2:
+              type: STRIPE_DOWNLEFT
+              color: BLACK
+            3:
+              type: BORDER
+              color: WHITE                                                                                   
+        buyPrice: 100
+        sellPrice: -1
+        slot: 40
+       27:
+        type: item
+        item:
+          name: "&aLetter Y"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_DOWNRIGHT
+              color: BLACK
+            2:
+              type: HALF_HORIZONTAL_MIRROR
+              color: WHITE
+            3:
+              type: STRIPE_DOWNLEFT
+              color: BLACK
+            4:
+              type: BORDER
+              color: WHITE                                                                                                 
+        buyPrice: 100
+        sellPrice: -1
+        slot: 41
+       28:
+        type: item
+        item:
+          name: "&aLetter Z"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_DOWNLEFT
+              color: BLACK
+            2:
+              type: STRIPE_DOWNLEFT
+              color: BLACK
+            3:
+              type: STRIPE_DOWNLEFT
+              color: BLACK
+            4:
+              type: STRIPE_TOP
+              color: BLACK
+            5:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            6:
+              type: BORDER
+              color: WHITE                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 42
+       29:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: PURPLE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_SMALL
+              color: MAGENTA
+            2:
+              type: BRICKS
+              color: PURPLE
+            3:
+              type: CURLY_BORDER
+              color: MAGENTA
+            4:
+              type: BORDER
+              color: BLACK                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 43
+       30:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_SMALL
+              color: PURPLE
+            2:
+              type: STRIPE_LEFT
+              color: BLACK
+            3:
+              type: STRIPE_RIGHT
+              color: BLACK
+            4:
+              type: SQUARE_BOTTOM_LEFT
+              color: BLACK
+            5:
+              type: SQUARE_BOTTOM_RIGHT
+              color: BLACK
+            6:
+              type: TRIANGLES_BOTTOM
+              color: BLACK                                                                                  
+        buyPrice: 100
+        sellPrice: -1
+        slot: 10
+        page: 2
+       31:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: RHOMBUS_MIDDLE
+              color: BLACK
+            2:
+              type: CURLY_BORDER
+              color: ORANGE
+            3:
+              type: CIRCLE_MIDDLE
+              color: ORANGE
+            4:
+              type: CREEPER
+              color: ORANGE
+            5:
+              type: TRIANGLE_TOP
+              color: ORANGE
+            6:
+              type: TRIANGLES_TOP
+              color: ORANGE                                                                                  
+        buyPrice: 100
+        sellPrice: -1
+        slot: 11
+        page: 2
+       32:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: ORANGE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: GRADIENT
+              color: RED
+            2:
+              type: FLOWER
+              color: ORANGE
+            3:
+              type: CIRCLE_MIDDLE
+              color: YELLOW
+            4:
+              type: TRIANGLE_BOTTOM
+              color: BROWN
+            5:
+              type: TRIANGLES_BOTTOM
+              color: GREEN                                                                                  
+        buyPrice: 100
+        sellPrice: -1
+        slot: 12
+        page: 2
+       33:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: LIGHT_BLUE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: GRADIENT
+              color: BLUE
+            2:
+              type: CURLY_BORDER
+              color: WHITE
+            3:
+              type: CROSS
+              color: WHITE
+            4:
+              type: CIRCLE_MIDDLE
+              color: WHITE
+            5:
+              type: FLOWER
+              color: BLUE
+            6:
+              type: TRIANGLE_TOP
+              color: WHITE                                                                                               
+        buyPrice: 100
+        sellPrice: -1
+        slot: 13
+        page: 2
+       34:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: CURLY_BORDER
+              color: LIME
+            2:
+              type: STRIPE_RIGHT
+              color: BLACK
+            3:
+              type: FLOWER
+              color: RED
+            4:
+              type: STRIPE_MIDDLE
+              color: LIME
+            5:
+              type: TRIANGLE_TOP
+              color: BLACK
+            6:
+              type: MOJANG
+              color: LIME                                                                                               
+        buyPrice: 100
+        sellPrice: -1
+        slot: 14
+        page: 2
+       35:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_DOWNLEFT
+              color: WHITE
+            2:
+              type: RHOMBUS_MIDDLE
+              color: PURPLE
+            3:
+              type: STRIPE_DOWNLEFT 
+              color: BLACK
+            4:
+              type: CIRCLE_MIDDLE
+              color: MAGENTA
+            5:
+              type: FLOWER
+              color: BLACK                                                                                              
+        buyPrice: 100
+        sellPrice: -1
+        slot: 15
+        page: 2
+       36:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: RED_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: HALF_HORIZONTAL
+              color: YELLOW
+            2:
+              type: STRIPE_TOP
+              color: LIME
+            3:
+              type: HALF_HORIZONTAL_MIRROR
+              color: ORANGE
+            4:
+              type: STRIPE_BOTTOM
+              color: RED
+            5:
+              type: TRIANGLES_TOP
+              color: LIGHT_BLUE
+            6:
+              type: BRICKS
+              color: WHITE                                                                                                            
+        buyPrice: 100
+        sellPrice: -1
+        slot: 16
+        page: 2
+       37:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: FLOWER
+              color: RED
+            2:
+              type: STRIPE_SMALL
+              color: PURPLE
+            3:
+              type: CURLY_BORDER
+              color: BLACK
+            4:
+              type: TRIANGLE_TOP
+              color: BLACK
+            5:
+              type: SKULL
+              color: MAGENTA
+            6:
+              type: CREEPER
+              color: BLACK                                                                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 19
+        page: 2                                                             
+       38:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: ORANGE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: BRICKS
+              color: YELLOW
+            2:
+              type: HALF_HORIZONTAL
+              color: CYAN
+            3:
+              type: FLOWER
+              color: LIME
+            4:
+              type: BORDER
+              color: CYAN
+            5:
+              type: CIRCLE_MIDDLE
+              color: LIME
+            6:
+              type: CURLY_BORDER
+              color: CYAN                                                                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 20
+        page: 2
+       39:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: TRIANGLES_BOTTOM
+              color: GREEN
+            2:
+              type: STRAIGHT_CROSS
+              color: GREEN
+            3:
+              type: STRIPE_SMALL
+              color: GREEN
+            4:
+              type: TRIANGLE_TOP
+              color: GREEN
+            5:
+              type: BORDER
+              color: GREEN
+            6:
+              type: CREEPER
+              color: BLACK                                                                                                        
+        buyPrice: 100
+        sellPrice: -1
+        slot: 21
+        page: 2
+       40:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: MOJANG
+              color: RED
+            2:
+              type: FLOWER
+              color: RED
+            3:
+              type: GLOBE
+              color: BLACK
+            4:
+              type: TRIANGLE_BOTTOM
+              color: RED
+            5:
+              type: RHOMBUS_MIDDLE
+              color: BLACK
+            6:
+              type: GRADIENT_UP
+              color: RED                                                                                                       
+        buyPrice: 100
+        sellPrice: -1
+        slot: 22
+        page: 2
+       41:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: FLOWER
+              color: BLACK
+            2:
+              type: SKULL
+              color: WHITE
+            3:
+              type: CIRCLE_MIDDLE
+              color: WHITE
+            4:
+              type: STRIPE_TOP
+              color: WHITE
+            5:
+              type: HALF_HORIZONTAL
+              color: WHITE                                                                                                       
+        buyPrice: 100
+        sellPrice: -1
+        slot: 23
+        page: 2
+       42:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: TRIANGLES_BOTTOM
+              color: RED
+            2:
+              type: CIRCLE_MIDDLE
+              color: RED
+            3:
+              type: CREEPER
+              color: WHITE
+            4:
+              type: STRIPE_TOP
+              color: WHITE
+            5:
+              type: CURLY_BORDER
+              color: WHITE
+            6:
+              type: CROSS
+              color: WHITE                                                                                                     
+        buyPrice: 100
+        sellPrice: -1
+        slot: 24
+        page: 2
+       43:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: YELLOW_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: SQUARE_TOP_LEFT
+              color: RED
+            2:
+              type: SQUARE_BOTTOM_RIGHT
+              color: RED
+            3:
+              type: STRIPE_LEFT
+              color: RED
+            4:
+              type: STRIPE_RIGHT
+              color: RED
+            5:
+              type: TRIANGLES_TOP
+              color: RED
+            6:
+              type: TRIANGLES_BOTTOM
+              color: RED                                                                                                     
+        buyPrice: 100
+        sellPrice: -1
+        slot: 25
+        page: 2
+       46:
+        type: item
+        item:
+          name: "&bFrance Flag"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_RIGHT
+              color: RED
+            2:
+              type: STRIPE_LEFT
+              color: BLUE
+            3:
+              type: STRIPE_LEFT
+              color: BLUE
+            4:
+              type: STRIPE_RIGHT
+              color: RED                                                                                                    
+        buyPrice: 100
+        sellPrice: -1
+        slot: 28
+        page: 2
+       47:
+        type: item
+        item:
+          name: "&bBelgium Flag"
+          material: YELLOW_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_LEFT
+              color: BLACK
+            2:
+              type: STRIPE_RIGHT
+              color: RED
+            3:
+              type: STRIPE_RIGHT
+              color: RED
+            4:
+              type: STRIPE_LEFT
+              color: BLACK
+            5:
+              type: STRIPE_CENTER
+              color: YELLOW                                                                                                         
+        buyPrice: 100
+        sellPrice: -1
+        slot: 29
+        page: 2
+       48:
+        type: item
+        item:
+          name: "&bSwitzerland Flag"
+          material: RED_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRAIGHT_CROSS
+              color: WHITE
+            2:
+              type: STRAIGHT_CROSS
+              color: WHITE
+            3:
+              type: BORDER
+              color: RED
+            4:
+              type: STRIPE_TOP
+              color: RED
+            5:
+              type: STRIPE_BOTTOM
+              color: RED
+            6:
+              type: BORDER
+              color: RED                                                                                                                      
+        buyPrice: 100
+        sellPrice: -1
+        slot: 30
+        page: 2
+       49:
+        type: item
+        item:
+          name: "&bBrazil Flag"
+          material: GREEN_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: RHOMBUS_MIDDLE
+              color: YELLOW
+            2:
+              type: RHOMBUS_MIDDLE
+              color: YELLOW
+            3:
+              type: CIRCLE_MIDDLE
+              color: BLUE
+            4:
+              type: CIRCLE_MIDDLE
+              color: BLUE                                                                                                                    
+        buyPrice: 100
+        sellPrice: -1
+        slot: 31
+        page: 2
+       50:
+        type: item
+        item:
+          name: "&bMexico Flag"
+          material: GREEN_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: CURLY_BORDER
+              color: WHITE
+            2:
+              type: RHOMBUS_MIDDLE
+              color: WHITE
+            3:
+              type: HALF_VERTICAL_MIRROR
+              color: WHITE
+            4:
+              type: CIRCLE_MIDDLE
+              color: BROWN
+            5:
+              type: STRIPE_TOP
+              color: GREEN
+            6:
+              type: STRIPE_BOTTOM
+              color: RED                                                                                                                                           
+        buyPrice: 100
+        sellPrice: -1
+        slot: 32
+        page: 2
+       51:
+        type: item
+        item:
+          name: "&bRussia Flag"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_LEFT
+              color: RED
+            2:
+              type: STRIPE_CENTER
+              color: BLUE
+            3:
+              type: STRIPE_CENTER
+              color: BLUE                                                                                                                                   
+        buyPrice: 100
+        sellPrice: -1
+        slot: 33
+        page: 2
+       52:
+        type: item
+        item:
+          name: "&bUSA Flag"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_SMALL
+              color: RED
+            2:
+              type: SQUARE_TOP_RIGHT
+              color: LIGHT_BLUE
+            3:
+              type: SQUARE_TOP_RIGHT
+              color: BLUE                                                                                                                        
+        buyPrice: 100
+        sellPrice: -1
+        slot: 34
+        page: 2
+       53:
+        type: item
+        item:
+          name: "&bUnited Kingdom Flag"
+          material: BLUE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_MIDDLE
+              color: WHITE
+            2:
+              type: STRIPE_DOWNLEFT
+              color: WHITE
+            3:
+              type: STRIPE_DOWNRIGHT
+              color: WHITE
+            4:
+              type: CROSS
+              color: RED
+            5:
+              type: STRIPE_CENTER
+              color: WHITE
+            6:
+              type: STRAIGHT_CROSS
+              color: RED                                                                                                                                                     
+        buyPrice: 100
+        sellPrice: -1
+        slot: 37
+        page: 2
+       54:
+        type: item
+        item:
+          name: "&bSpain Flag"
+          material: YELLOW_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_LEFT
+              color: RED
+            2:
+              type: STRIPE_RIGHT
+              color: RED
+            3:
+              type: STRIPE_CENTER
+              color: YELLOW                                                                                                                                              
+        buyPrice: 100
+        sellPrice: -1
+        slot: 38
+        page: 2
+       55:
+        type: item
+        item:
+          name: "&bJamaica Flag"
+          material: LIME_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: TRIANGLE_BOTTOM
+              color: BLACK
+            2:
+              type: TRIANGLE_TOP
+              color: BLACK
+            3:
+              type: CROSS
+              color: YELLOW
+            4:
+              type: CROSS
+              color: YELLOW                                                                                                                                                            
+        buyPrice: 100
+        sellPrice: -1
+        slot: 39
+        page: 2
+       56:
+        type: item
+        item:
+          name: "&bCzech Flag"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: HALF_VERTICAL_MIRROR
+              color: RED
+            2:
+              type: TRIANGLE_TOP
+              color: BLUE                                                                                                                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 40
+        page: 2
+       57:
+        type: item
+        item:
+          name: "&bTurkish Flag"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: HALF_VERTICAL_MIRROR
+              color: RED
+            2:
+              type: STRIPE_MIDDLE
+              color: WHITE
+            3:
+              type: CURLY_BORDER
+              color: RED
+            4:
+              type: STRIPE_TOP
+              color: RED
+            5:
+              type: STRIPE_BOTTOM
+              color: RED
+            6:
+              type: CIRCLE_MIDDLE
+              color: RED                                                                                                                                                                                                                  
+        buyPrice: 100
+        sellPrice: -1
+        slot: 41
+        page: 2
+       58:
+        type: item
+        item:
+          name: "&bArgentina Flag"
+          material: LIGHT_BLUE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_CENTER
+              color: WHITE
+            2:
+              type: STRIPE_CENTER
+              color: WHITE
+            3:
+              type: FLOWER
+              color: YELLOW
+            4:
+              type: FLOWER
+              color: YELLOW                                                                                                                                                                                                                  
+        buyPrice: 100
+        sellPrice: -1
+        slot: 42
+        page: 2
+       59:
+        type: item
+        item:
+          name: "&bSweeden Flag"
+          material: YELLOW_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_BOTTOM
+              color: BLUE
+            2:
+              type: HALF_HORIZONTAL
+              color: BLUE
+            3:
+              type: STRIPE_CENTER
+              color: YELLOW                                                                                                                                                                                                                 
+        buyPrice: 100
+        sellPrice: -1
+        slot: 43
+        page: 2
+       61:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: BRICKS
+              color: LIME
+            2:
+              type: BRICKS
+              color: BLACK
+            3:
+              type: STRIPE_SMALL
+              color: GREEN
+            4:
+              type: BRICKS
+              color: BLACK
+            5:
+              type: GLOBE
+              color: LIME                                                                                                                                                                                                                                             
+        buyPrice: 100
+        sellPrice: -1
+        slot: 10
+        page: 3
+       62:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: RED_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: TRIANGLE_BOTTOM
+              color: BLUE
+            2:
+              type: STRIPE_SMALL
+              color: RED
+            3:
+              type: STRIPE_MIDDLE
+              color: WHITE
+            4:
+              type: CURLY_BORDER
+              color: BLUE
+            5:
+              type: CIRCLE_MIDDLE
+              color: RED
+            6:
+              type: BORDER
+              color: BLUE                                                                                                                                                                                                                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 11
+        page: 3
+       63:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: GRAY_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: TRIANGLES_TOP
+              color: LIGHT_BLUE
+            2:
+              type: SQUARE_TOP_LEFT
+              color: LIGHT_BLUE
+            3:
+              type: CURLY_BORDER
+              color: LIGHT_BLUE
+            4:
+              type: STRIPE_BOTTOM
+              color: LIME
+            5:
+              type: MOJANG
+              color: GRAY
+            6:
+              type: TRIANGLES_BOTTOM
+              color: BROWN                                                                                                                                                                                                                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 12
+        page: 3
+       64:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: LIGHT_BLUE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: RHOMBUS_MIDDLE
+              color: BLACK
+            2:
+              type: GRADIENT_UP
+              color: WHITE
+            3:
+              type: FLOWER
+              color: GREEN
+            4:
+              type: MOJANG
+              color: BROWN
+            5:
+              type: CIRCLE_MIDDLE
+              color: BROWN
+            6:
+              type: HALF_HORIZONTAL_MIRROR
+              color: BLUE                                                                                                                                                                                                                                                       
+        buyPrice: 100
+        sellPrice: -1
+        slot: 13
+        page: 3
+       65:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: CURLY_BORDER
+              color: WHITE
+            2:
+              type: TRIANGLE_BOTTOM
+              color: ORANGE
+            3:
+              type: CIRCLE_MIDDLE
+              color: ORANGE
+            4:
+              type: BORDER
+              color: BLACK
+            5:
+              type: STRIPE_BOTTOM
+              color: BLACK
+            6:
+              type: HALF_HORIZONTAL
+              color: BLACK                                                                                                                                                                                                                                                       
+        buyPrice: 100
+        sellPrice: -1
+        slot: 14
+        page: 3
+       66:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_MIDDLE
+              color: WHITE
+            2:
+              type: FLOWER
+              color: BLUE
+            3:
+              type: CURLY_BORDER
+              color: BLACK
+            4:
+              type: CROSS
+              color: BLACK
+            5:
+              type: CREEPER
+              color: BLACK
+            6:
+              type: HALF_HORIZONTAL
+              color: BLACK                                                                                                                                                                                                                                                       
+        buyPrice: 100
+        sellPrice: -1
+        slot: 15
+        page: 3
+       67:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: MAGENTA_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: CIRCLE_MIDDLE
+              color: WHITE
+            2:
+              type: FLOWER
+              color: WHITE
+            3:
+              type: CROSS
+              color: WHITE
+            4:
+              type: STRIPE_MIDDLE
+              color: BLACK
+            5:
+              type: CURLY_BORDER
+              color: MAGENTA
+            6:
+              type: TRIANGLE_BOTTOM
+              color: WHITE                                                                                                                                                                                                                                                     
+        buyPrice: 100
+        sellPrice: -1
+        slot: 16
+        page: 3
+       68:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: BLACK_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: TRIANGLES_BOTTOM
+              color: ORANGE
+            2:
+              type: CIRCLE_MIDDLE
+              color: MAGENTA
+            3:
+              type: CIRCLE_MIDDLE
+              color: MAGENTA
+            4:
+              type: GLOBE
+              color: WHITE                                                                                                                                                                                                                                                    
+        buyPrice: 100
+        sellPrice: -1
+        slot: 19
+        page: 3
+       69:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: LIGHT_BLUE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_DOWNLEFT
+              color: WHITE
+            2:
+              type: GRADIENT_UP
+              color: WHITE
+            3:
+              type: BORDER
+              color: GRAY
+            4:
+              type: BORDER
+              color: GRAY
+            5:
+              type: BORDER
+              color: GRAY                                                                                                                                                                                                                                                                   
+        buyPrice: 100
+        sellPrice: -1
+        slot: 20
+        page: 3
+       70:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: LIGHT_BLUE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: RHOMBUS_MIDDLE
+              color: BROWN
+            2:
+              type: RHOMBUS_MIDDLE
+              color: ORANGE
+            3:
+              type: STRIPE_MIDDLE
+              color: PINK
+            4:
+              type: HALF_HORIZONTAL
+              color: LIGHT_BLUE
+            5:
+              type: CIRCLE_MIDDLE
+              color: PINK
+            6:
+              type: BORDER
+              color: LIGHT_BLUE                                                                                                                                                                                                                                                                                 
+        buyPrice: 100
+        sellPrice: -1
+        slot: 21
+        page: 3
+       71:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: YELLOW_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: HALF_HORIZONTAL
+              color: BLACK
+            2:
+              type: TRIANGLE_TOP
+              color: YELLOW
+            3:
+              type: TRIANGLE_BOTTOM
+              color: BLACK
+            4:
+              type: CIRCLE_MIDDLE
+              color: BLACK                                                                                                                                                                                                                                                                               
+        buyPrice: 100
+        sellPrice: -1
+        slot: 22
+        page: 3
+       72:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: GRAY_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: CROSS
+              color: LIME
+            2:
+              type: STRAIGHT_CROSS
+              color: LIME
+            3:
+              type: CURLY_BORDER
+              color: GRAY
+            4:
+              type: STRIPE_BOTTOM
+              color: GRAY
+            5:
+              type: GRADIENT_UP
+              color: GRAY                                                                                                                                                                                                                                                                                           
+        buyPrice: 100
+        sellPrice: -1
+        slot: 23
+        page: 3
+       73:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: WHITE_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: STRIPE_BOTTOM
+              color: PURPLE
+            2:
+              type: BORDER
+              color: PURPLE
+            3:
+              type: RHOMBUS_MIDDLE
+              color: WHITE
+            4:
+              type: STRIPE_TOP
+              color: PURPLE
+            5:
+              type: SQUARE_BOTTOM_LEFT
+              color: PURPLE                                                                                                                                                                                                                                                                                          
+        buyPrice: 100
+        sellPrice: -1
+        slot: 24
+        page: 3
+       74:
+        type: item
+        item:
+          name: "&eCustom Banner"
+          material: YELLOW_BANNER
+          quantity: 1
+          patterns:
+            1:
+              type: GRADIENT
+              color: WHITE
+            2:
+              type: DIAGONAL_RIGHT_MIRROR
+              color: GRAY
+            3:
+              type: STRIPE_TOP
+              color: LIGHT_GRAY
+            4:
+              type: CIRCLE_MIDDLE
+              color: GRAY
+            5:
+              type: CURLY_BORDER
+              color: GRAY
+            6:
+              type: STRIPE_BOTTOM
+              color: BLUE                                                                                                                                                                                                                                                                                                       
+        buyPrice: 100
+        sellPrice: -1
+        slot: 25
+        page: 3                                                                                                                                                                                                                          
+       44:
+        type: special
+        special: balance
+        slot: 53
+       45:
+        type: special
+        special: balance
+        slot: 53
+        page: 2
+       60:
+        type: special
+        special: balance
+        slot: 53
+        page: 3                                                              

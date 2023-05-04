@@ -1,0 +1,281 @@
+  armorweapon:
+    name: "&8&nWeapons & Armor [page %page%/2]"
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: ""        
+    items:
+       1:
+        type: item
+        item:
+          material: bow        
+          quantity: 1
+        buyPrice: 500
+        sellPrice: -1
+        slot: 10
+        page: 2       
+       2:
+        type: item      
+        item:
+          material: arrow       
+          quantity: 1
+        buyPrice: 25 
+        sellPrice: -1
+        slot: 12
+        page: 2
+       3:
+        type: item      
+        item:
+          material: diamond_helmet      
+          quantity: 1
+        buyPrice: 2000 
+        sellPrice: -1
+        slot: 12
+       4:
+        type: item      
+        item:
+          material: iron_helmet      
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 13
+       5:
+        type: item      
+        item:
+          material: chainmail_helmet        
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 14
+       6:
+        type: item      
+        item:
+          material: leather_helmet        
+          quantity: 1
+        buyPrice: 700
+        sellPrice: -1
+        slot: 15
+       7:
+        type: item      
+        item:
+          material: spyglass      
+          quantity: 1
+        buyPrice: 500 
+        sellPrice: -1
+        slot: 28
+        page: 2        
+       8:
+        type: item      
+        item:
+          material: elytra      
+          quantity: 1
+        buyPrice: 6000 
+        sellPrice: -1
+        slot: 29
+        page: 2
+       9:
+        type: item      
+        item:
+          material: diamond_chestplate      
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: -1
+        slot: 21
+       10:
+        type: item      
+        item:
+          material: iron_chestplate        
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 22
+       11:
+        type: item      
+        item:
+          material: chainmail_chestplate       
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 23
+       12:
+        type: item      
+        item:
+          material: leather_chestplate        
+          quantity: 1
+        buyPrice: 700
+        sellPrice: -1
+        slot: 24
+       13:
+        type: item      
+        item:
+          material: diamond_sword        
+          quantity: 1
+        buyPrice: 1500 
+        sellPrice: -1
+        slot: 20
+        page: 2
+       14:
+        type: item      
+        item:
+          material: iron_sword       
+          quantity: 1
+        buyPrice: 1250
+        sellPrice: -1
+        slot: 21
+        page: 2
+       15:
+        type: item      
+        item:
+          material: diamond_leggings       
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: -1
+        slot: 30
+       16:
+        type: item      
+        item:
+          material: iron_leggings       
+          quantity: 1
+        buyPrice: 1500 
+        sellPrice: -1
+        slot: 31
+       17:
+        type: item      
+        item:
+          material: chainmail_leggings       
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 32
+       18:
+        type: item      
+        item:
+          material: leather_leggings       
+          quantity: 1
+        buyPrice: 700
+        sellPrice: -1
+        slot: 33
+       19:
+        type: item      
+        item:
+          material: golden_sword       
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 22
+        page: 2
+       20:
+        type: item      
+        item:
+          material: stone_sword       
+          quantity: 1
+        buyPrice: 700
+        sellPrice: -1
+        slot: 23
+        page: 2
+       21:
+        type: item      
+        item:
+          material: diamond_boots        
+          quantity: 1
+        buyPrice: 2000 
+        sellPrice: -1
+        slot: 39
+       22:
+        type: item      
+        item:
+          material: iron_boots       
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 40
+       23:
+        type: item      
+        item:
+          material: chainmail_boots        
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 41
+       24:
+        type: item      
+        item:
+          material: leather_boots       
+          quantity: 1
+        buyPrice: 700
+        sellPrice: -1
+        slot: 42
+       25:
+        type: item      
+        item:
+          material: trident     
+          quantity: 1
+        buyPrice: 5500
+        sellPrice: -1
+        slot: 37
+        page: 2
+       26:
+        type: item      
+        item:
+          material: crossbow      
+          quantity: 1
+        buyPrice: 5000
+        sellPrice: -1
+        slot: 11
+        page: 2
+       27:
+        type: item      
+        item:
+          material: netherite_helmet    
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: -1
+        slot: 11
+       28:
+        type: item      
+        item:
+          material: netherite_chestplate    
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: -1
+        slot: 20
+       29:
+        type: item      
+        item:
+          material: netherite_leggings 
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: -1
+        slot: 29
+       30:
+        type: item      
+        item:
+          material: netherite_boots
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: -1
+        slot: 38
+       31:
+        type: item      
+        item:
+          material: netherite_sword
+          quantity: 1
+        buyPrice: 2250
+        sellPrice: -1
+        slot: 19
+        page: 2
+       32:
+        type: special
+        special: balance
+        slot: 53
+       33:
+        type: special
+        special: balance
+        slot: 53
+        page: 2                 

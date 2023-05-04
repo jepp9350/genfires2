@@ -1,0 +1,61 @@
+abilities:
+    name: "&8&nAbility Shop [page %page%/1]"
+    size: 45
+    buttons:
+      goBack:
+        slot: 40   
+      previousPage:
+        slot: 39
+      nextPage:
+        slot: 41
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: ""        
+    items:
+       1:
+        type: permission
+        permission: "essentials.fly"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&7Ability to use &c&l/Fly &7command"
+        buyPrice: 10000000
+        sellPrice: -1
+        slot: 12   
+       2:
+        type: permission
+        permission: "tokenshop.use"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&7Ability to use &c&l/tokenshop &7command"
+        buyPrice: 5000000000
+        sellPrice: -1
+        slot: 13
+       3:
+        type: permission
+        permission: "shopguiplus.sell.all"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&7Ability to use &c&l/Sell All &7command"
+        buyPrice: 100000
+        sellPrice: -1
+        slot: 14
+       4:
+        type: command
+        item:
+          material: BLAZE_ROD
+          quantity: 1
+          name: "&d&lSell wand"
+          damage: 0
+        commands: 
+          - "ex give sell-wand to:<server.match_player[%PLAYER%].inventory> quantity:1"
+        commandsLimit: 64
+        buyPrice: 1000000
+        sellPrice: -1
+        slot: 22
+       5:
+        type: special
+        special: balance
+        slot: 44        

@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: spore_blossom_air
+effect-name: spore_blossom_air
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [SPORE_BLOSSOM]
+gui-icon-material:
+  - SPORE_BLOSSOM

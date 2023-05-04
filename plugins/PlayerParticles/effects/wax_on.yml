@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: wax_on
+effect-name: wax_on
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [WAXED_COPPER_BLOCK]
+gui-icon-material:
+  - WAXED_COPPER_BLOCK

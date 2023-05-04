@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: vibration
+effect-name: vibration
+
+# If the effect is enabled or not
+# Default: false
+enabled: false
+
+# Default: [SCULK_SENSOR]
+gui-icon-material:
+  - SCULK_SENSOR

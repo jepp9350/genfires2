@@ -1,0 +1,9 @@
+
+*.key
+*.dat
+*.secret
+*.db
+usercache.json
+ops.json
+banned-ips.json
+banned-players.json

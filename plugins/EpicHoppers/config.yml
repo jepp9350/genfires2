@@ -1,0 +1,141 @@
+Main:
+
+  # Should hoppers be upgradable?
+  Allow hopper Upgrading: true
+
+  # Should you be able to upgrade hoppers with economy?
+  Upgrade With Economy: true
+
+  # Should you be able to upgrade hoppers with experience?
+  Upgrade With XP: true
+
+  # Should natural hoppers not be epic hoppers?
+  Allow Normal Hoppers: false
+
+  # Worlds where epic hoppers cannot be placed.
+  # Any placed Epic Hopper will just be converted to a normal one.
+  Disabled Worlds:
+  - example1
+  - example2
+
+  # Should players be able to teleport through hoppers?
+  Allow Players To Teleport Through Hoppers: true
+
+  # Should hoppers dump items into a player enderchests?
+  Support Enderchests: true
+
+  # The type of particle shown when a hopper is upgraded.
+  Upgrade Particle Type: SPELL_WITCH
+
+  # The amount of ticks between hopper transfers.
+  Amount of Ticks Between Hops: 8
+
+  # The amount of time in between saving to file.
+  # This is purely a safety function to prevent against unplanned crashes or
+  # restarts. With that said it is advised to keep this enabled.
+  # If however you enjoy living on the edge, feel free to turn it off.
+  Auto Save Interval In Seconds: 15
+
+  # The cooldown between teleports. It prevents players
+  # from getting stuck in a teleport loop.
+  Amount of Ticks Between Teleport: 10
+
+  # The amount of time in ticks a player has between hitting the hopper
+  # Link button and performing the link. When the time is up the link event is canceled.
+  Timeout When Syncing Hoppers: 300
+
+  # The maximum amount of hoppers per chunk.
+  Max Hoppers Per Chunk: -1
+
+  # Should we use protection plugins?
+  Use Protection Plugins: true
+
+  # The particle shown when the block break module performs a block break.
+  BlockBreak Particle Type: LAVA
+
+  # Anything listed here will not be broken by the block break module.
+  BlockBreak Blacklisted Blocks:
+  - BEDROCK
+  - END_PORTAL
+  - ENDER_PORTAL
+  - END_PORTAL_FRAME
+  - ENDER_PORTAL_FRAME
+  - PISTON_HEAD
+  - PISTON_EXTENSION
+  - RAIL
+  - RAILS
+  - ACTIVATOR_RAIL
+  - DETECTOR_RAIL
+  - POWERED_RAIL
+
+  # Allow BlockBreak to break containers.
+  Allow BlockBreak Containers: false
+
+  # AutoCraft module needs a free slot to craft items with.
+  # Normally, crafting hoppers won't grab items that would fill that slot.
+  # This option ejects items if that last slot is forcibly filled
+  AutoCraft Jam Eject: false
+
+  # Anything listed here will not be able to be auto crafted.
+  AutoCraft Blacklist:
+  - BEDROCK
+  - EGG
+
+  # These are the prices used by the auto sell module.
+  AutoSell Prices:
+  - STONE,0.50
+  - COBBLESTONE,0.20
+  - IRON_ORE,0.35
+  - COAL_ORE,0.20
+
+  # Should prices be grabbed from ShopGuiPlus?
+  # If ShopGuiPlus is not enabled or the player is offline the default price list will be used.
+  # If this is something that you do not want then you should empty the default list.
+  Use ShopGuiPlus for Prices: false
+
+  # Which economy plugin should be used?
+  # Supported plugins you have installed: "".
+  Economy: Vault
+
+  # This event is used by other plugin to modify or monitor the behavior when a hopper picks up items on the ground.
+  # However it is a high frequency event and may have an impact on your server performance which is why it is disabled by default.
+  # If you absolutely need this enable it but be aware of the potential performance impact.
+  Emit InventoryPickupItemEvent: false
+
+Interfaces:
+
+  Economy Icon: SUNFLOWER
+
+  XP Icon: EXPERIENCE_BOTTLE
+
+  Glass Type 1: GRAY_STAINED_GLASS_PANE
+
+  Glass Type 2: BLUE_STAINED_GLASS_PANE
+
+  Glass Type 3: LIGHT_BLUE_STAINED_GLASS_PANE
+
+System:
+
+  # The enabled language file.
+  # More language files (if available) can be found in the plugins data folder.
+  Language Mode: en_US
+
+MySQL:
+
+  # Set to 'true' to use MySQL instead of SQLite for data storage.
+  Enabled: false
+
+  Hostname: localhost
+
+  Port: 3306
+
+  Database: your-database
+
+  Username: user
+
+  Password: pass
+
+  Use SSL: false
+
+  # Determines the number of connections the pool is using. Increase this value if you are getting timeout errors when more players online.
+  Pool Size: 3

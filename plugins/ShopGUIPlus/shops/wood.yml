@@ -1,0 +1,629 @@
+  wood:
+    name: "&8&nWood [page %page%/3]"
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: "" 
+    items:
+       1:
+        type: item
+        item:
+          material: stripped_oak_wood
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 3
+        slot: 10       
+       2:
+        type: item      
+        item:
+          material: stripped_spruce_wood   
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 3
+        slot: 11
+       3:
+        type: item      
+        item:
+          material: stripped_birch_wood  
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 3
+        slot: 12
+       4:
+        type: item      
+        item:
+          material: stripped_jungle_wood    
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 3
+        slot: 13
+       5:
+        type: item      
+        item:
+          material: stripped_acacia_wood    
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 3
+        slot: 14
+       6:
+        type: item      
+        item:
+          material: stripped_dark_oak_wood      
+          quantity: 1
+        buyPrice: 9
+        sellPrice: 3
+        slot: 15
+       7:
+        type: item      
+        item:
+          material: oak_wood     
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 16
+       8:
+        type: item      
+        item:
+          material: spruce_wood     
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 19
+       9:
+        type: item      
+        item:
+          material: birch_wood      
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 20
+       10:
+        type: item      
+        item:
+          material: jungle_wood   
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 21
+       11:
+        type: item      
+        item:
+          material: acacia_wood    
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 22
+       12:
+        type: item      
+        item:
+          material: dark_oak_wood   
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 23
+       13:
+        type: item      
+        item:
+          material: oak_log     
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 3
+        slot: 24
+       14:
+        type: item      
+        item:
+          material: spruce_log       
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 3
+        slot: 25
+       15:
+        type: item      
+        item:
+          material: birch_log   
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 3
+        slot: 28
+       16:
+        type: item      
+        item:
+          material: jungle_log      
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 3
+        slot: 29
+       17:
+        type: item      
+        item:
+          material: acacia_log    
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 3
+        slot: 30
+       18:
+        type: item      
+        item:
+          material: dark_oak_log    
+          quantity: 1
+        buyPrice: 15
+        sellPrice: 3
+        slot: 31
+       19:
+        type: item      
+        item:
+          material: oak_slab     
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 32
+       20:
+        type: item      
+        item:
+          material: spruce_slab    
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 33
+       21:
+        type: item      
+        item:
+          material: jungle_slab     
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 34
+       22:
+        type: item      
+        item:
+          material: birch_slab   
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 37
+       23:
+        type: item      
+        item:
+          material: acacia_slab   
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 38
+       24:
+        type: item      
+        item:
+          material: dark_oak_slab     
+          quantity: 1
+        buyPrice: 6.25
+        sellPrice: -1
+        slot: 39
+       25:
+        type: item      
+        item:
+          material: oak_stairs  
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 40
+       26:
+        type: item      
+        item:
+          material: spruce_stairs       
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 41
+       27:
+        type: item      
+        item:
+          material: birch_stairs    
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 42
+       28:
+        type: item      
+        item:
+          material: jungle_stairs      
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 43
+       29:
+        type: item      
+        item:
+          material: acacia_stairs    
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 10
+        page: 2
+       30:
+        type: item      
+        item:
+          material: dark_oak_stairs      
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 11
+        page: 2
+       31:
+        type: item      
+        item:
+          material: oak_trapdoor     
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: -1
+        slot: 12
+        page: 2
+       32:
+        type: item      
+        item:
+          material: spruce_trapdoor    
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: -1
+        slot: 13
+        page: 2
+       33:
+        type: item      
+        item:
+          material: birch_trapdoor     
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: -1
+        slot: 14
+        page: 2
+       34:
+        type: item      
+        item:
+          material: jungle_trapdoor     
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: -1
+        slot: 15
+        page: 2
+       35:
+        type: item      
+        item:
+          material: acacia_trapdoor     
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: -1
+        slot: 16
+        page: 2
+       36:
+        type: item      
+        item:
+          material: dark_oak_trapdoor      
+          quantity: 1
+        buyPrice: 37.5
+        sellPrice: -1
+        slot: 19
+        page: 2
+       37:
+        type: item      
+        item:
+          material: oak_door      
+          quantity: 1
+        buyPrice: 150
+        sellPrice: -1
+        slot: 20
+        page: 2
+       38:
+        type: item      
+        item:
+          material: spruce_door      
+          quantity: 1
+        buyPrice: 150
+        sellPrice: -1
+        slot: 21
+        page: 2
+       39:
+        type: item      
+        item:
+          material: birch_door     
+          quantity: 1
+        buyPrice: 150
+        sellPrice: -1
+        slot: 22
+        page: 2
+       40:
+        type: item      
+        item:
+          material: jungle_door     
+          quantity: 1
+        buyPrice: 150
+        sellPrice: -1
+        slot: 23
+        page: 2
+       41:
+        type: item      
+        item:
+          material: acacia_door      
+          quantity: 1
+        buyPrice: 150
+        sellPrice: -1
+        slot: 24
+        page: 2
+       42:
+        type: item      
+        item:
+          material: dark_oak_door     
+          quantity: 1
+        buyPrice: 150
+        sellPrice: -1
+        slot: 25
+        page: 2
+       43:
+        type: item      
+        item:
+          material: oak_fence_gate      
+          quantity: 1
+        buyPrice: 100
+        sellPrice: -1
+        slot: 28
+        page: 2
+       44:
+        type: item      
+        item:
+          material: spruce_fence_gate      
+          quantity: 1
+        buyPrice: 100
+        sellPrice: -1
+        slot: 29
+        page: 2
+       45:
+        type: item      
+        item:
+          material: birch_fence_gate      
+          quantity: 1
+        buyPrice: 100
+        sellPrice: -1
+        slot: 30
+        page: 2
+       46:
+        type: item      
+        item:
+          material: jungle_fence_gate     
+          quantity: 1
+        buyPrice: 100
+        sellPrice: -1
+        slot: 31
+        page: 2
+       47:
+        type: item      
+        item:
+          material: acacia_fence_gate     
+          quantity: 1
+        buyPrice: 100
+        sellPrice: -1
+        slot: 32
+        page: 2
+       48:
+        type: item      
+        item:
+          material: dark_oak_fence_gate    
+          quantity: 1
+        buyPrice: 100
+        sellPrice: -1
+        slot: 33
+        page: 2
+       49:
+        type: item      
+        item:
+          material: oak_fence   
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 34
+        page: 2
+       50:
+        type: item      
+        item:
+          material: spruce_fence   
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 37
+        page: 2
+       51:
+        type: item      
+        item:
+          material: birch_fence   
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 38
+        page: 2
+       52:
+        type: item      
+        item:
+          material: jungle_fence   
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 39
+        page: 2
+       53:
+        type: item      
+        item:
+          material: acacia_fence   
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 40
+        page: 2
+       54:
+        type: item      
+        item:
+          material: dark_oak_fence   
+          quantity: 1
+        buyPrice: 18.75
+        sellPrice: -1
+        slot: 41
+        page: 2
+       55:
+        type: item      
+        item:
+          material: WARPED_STEM
+          quantity: 1
+        buyPrice: 17.5
+        sellPrice: 3.25
+        slot: 42
+        page: 2
+       56:
+        type: item      
+        item:
+          material: WARPED_HYPHAE
+          quantity: 1
+        buyPrice: 20
+        sellPrice: -1
+        slot: 43
+        page: 2
+       57:
+        type: item      
+        item:
+          material: WARPED_SLAB
+          quantity: 1
+        buyPrice: 6.50
+        sellPrice: -1
+        slot: 10
+        page: 3
+       58:
+        type: item      
+        item:
+          material: WARPED_FENCE
+          quantity: 1
+        buyPrice: 20
+        sellPrice: -1
+        slot: 11
+        page: 3
+       59:
+        type: item      
+        item:
+          material: WARPED_FENCE_GATE
+          quantity: 1
+        buyPrice: 150
+        sellPrice: -1
+        slot: 12
+        page: 3
+       60:
+        type: item      
+        item:
+          material: WARPED_DOOR
+          quantity: 1
+        buyPrice: 200
+        sellPrice: -1
+        slot: 13
+        page: 3
+       61:
+        type: item      
+        item:
+          material: WARPED_STAIRS
+          quantity: 1
+        buyPrice: 15
+        sellPrice: -1
+        slot: 14
+        page: 3
+       62:
+        type: item      
+        item:
+          material: WARPED_TRAPDOOR
+          quantity: 1
+        buyPrice: 40
+        sellPrice: -1
+        slot: 15
+        page: 3
+       63:
+        type: item      
+        item:
+          material: CRIMSON_STEM
+          quantity: 1
+        buyPrice: 17.5
+        sellPrice: 3.25
+        slot: 16
+        page: 3
+       64:
+        type: item      
+        item:
+          material: CRIMSON_HYPHAE
+          quantity: 1
+        buyPrice: 20
+        sellPrice: -1
+        slot: 19
+        page: 3
+       65:
+        type: item      
+        item:
+          material: CRIMSON_SLAB
+          quantity: 1
+        buyPrice: 6.5
+        sellPrice: -1
+        slot: 20
+        page: 3
+       66:
+        type: item      
+        item:
+          material: CRIMSON_FENCE
+          quantity: 1
+        buyPrice: 20
+        sellPrice: -1
+        slot: 21
+        page: 3
+       67:
+        type: item      
+        item:
+          material: CRIMSON_FENCE_GATE
+          quantity: 1
+        buyPrice: 150
+        sellPrice: -1
+        slot: 22
+        page: 3 
+       68:
+        type: item      
+        item:
+          material: CRIMSON_DOOR
+          quantity: 1
+        buyPrice: 200
+        sellPrice: -1
+        slot: 23
+        page: 3
+       69:
+        type: item      
+        item:
+          material: CRIMSON_STAIRS
+          quantity: 1
+        buyPrice: 15
+        sellPrice: -1
+        slot: 24
+        page: 3
+       70:
+        type: item      
+        item:
+          material: CRIMSON_TRAPDOOR
+          quantity: 1
+        buyPrice: 40
+        sellPrice: -1
+        slot: 25
+        page: 3
+       71:
+        type: special
+        special: balance
+        slot: 53
+       72:
+        type: special
+        special: balance
+        slot: 53
+        page: 2
+       73:
+        type: special
+        special: balance
+        slot: 53
+        page: 3                

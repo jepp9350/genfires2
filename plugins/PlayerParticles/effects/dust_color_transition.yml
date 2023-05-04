@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: dust_color_transition
+effect-name: dust_color_transition
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [DEEPSLATE_REDSTONE_ORE]
+gui-icon-material:
+  - DEEPSLATE_REDSTONE_ORE

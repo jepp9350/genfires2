@@ -1,0 +1,7 @@
+# Command section can utilize same custom variables as scheduler. Check schedules.yml file for all possible variables.
+
+Jail:
+  Loc: Plot:24.0:73.0:-29.0:28.0:75.0:-25.0
+  cells:
+    '1':
+      location: Plot;26.55;73.0;-26.47;-2.43;90.0

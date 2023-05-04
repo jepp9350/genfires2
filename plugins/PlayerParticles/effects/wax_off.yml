@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: wax_off
+effect-name: wax_off
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [OXIDIZED_COPPER]
+gui-icon-material:
+  - OXIDIZED_COPPER

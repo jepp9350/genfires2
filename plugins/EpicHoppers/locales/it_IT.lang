@@ -1,0 +1,83 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Avanti'
+    back: '&9Indietro'
+    nameformat: '&eLivello %level% &fHopper'
+    lore: ''
+  word:
+    disabled: DISATTIVO
+    enabled: ATTIVO
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lAttualmente potenziato!|&7Rate di trasferimento degli item moltiplicato di &6%amount%x&7.|&7Scade in &6%time%&7.'
+    upgradewithxp: '&aPotenzia con XP'
+    upgradewithxplore: '&7Costo: &a%cost% Livelli'
+    upgradewitheconomy: '&aPotenzia con ECO'
+    upgradewitheconomylore: '&7Costo: &a$%cost%'
+    currentlevel: '&6Livello Hopper &7%level%'
+    nextlevel: '&6Prossimo Livello &7%level%'
+    range: '&7Raggio: &6%range%'
+    amount: '&7Totale: &6%amount%'
+    teleport: '&7Teletrasporto: &6%enabled%'
+    filter: '&7Filtro: &6%enabled%'
+    crafting: '&7AutoCrafting: &6%enabled%'
+    suction: '&7Aspirazione: &6%suction%'
+    autosell: '&7AutoVendita: Ogni &6%seconds%s'
+    linkamount: '&7Link Overflow: &6%amount%'
+    blockbreak: '&7RompiBlocchi: &6Ogni %ticks% ticks'
+    alreadymaxed: '&7Questo hopper è già al massimo livello!'
+    synclore: '|&7Click Sinistro e successivamente clicca un''altro|&7hopper o chest per sincronizzare!||&7Click destro per desincronizzare.'
+    perltitle: '&6Clicca per teletrasportarti'
+    perllore2: '|&7Click sinistro per teletrasportarti|&7alla fine della catena.||&7Click destro per cambiare il |&7trigger del teletrasporto.|&7Impostato su: &a%type%&7.'
+    filtertitle: '&cClicca per Filtrare'
+    filterlore: '|&7Questo ti permette di selezionare|&7quali item devono andare.'
+    craftingtitle: '&cClicca per impostare l''''AutoCrafting'
+    craftinglore: '|&7Questo ti permette di selezionare|&7quali oggetti questo hopper|&7deve automaticamente creare.'
+    selltitle: '&6Click-Sinistro per attivare/disattivare AutoVendita'
+    selllore: '&6Click-Destro per attivare/disattivare le notifiche||&7Vendi in &6%timeleft%s&7.|&7Notifiche: &6%state%&7.'
+    blocktitle: '&6Click to attivare/disattivare RompiBlocchi'
+    blocklore: '|&7RompiBlocchi settato su &6%enabled%&7.'
+    synchopper: '&6Clicca per Sincronizzare questo Hopper'
+    rejectsync: '&6Clicca per Sincronizzare gli Item Rifiutati'
+  filter:
+    infotitle: '&aGuida Filtri'
+    infolore: '&7Gli item piazzati in alto a sinistra nello|&7spazio verranno whitelistati.||&7Gli items piazzati a destra|&7verranno nel vuoto.||&7Gli item piazzati in basso a sinistra|&7verranno blacklistati.||&cUsando la whitelist verranno disattivati|&csia la blacklist che il void.'
+    whitelist: '&f&lWhitelist'
+    blacklist: '&8&lBlacklist'
+    void: '&c&lVuoto'
+# Command Messages
+command:
+  give:
+    success: '&7Hai ricevuto un &6Hopper &7di livello &6%level%'
+# Event Messages
+event:
+  general:
+    nopermission: '&cNon hai il permesso di fare questo.'
+  upgrade:
+    cannotafford: '&cNon puoi permetterti questo potenziamento.'
+    success: '&7Hai potenziato con successo questo hopper al &6livello %level%&7!'
+    maxed: '&7Hai potenziato al &6livello massimo questo hopper! &7(&6%level%&7).'
+  inventory:
+    noroom: '&7Non hai abbastanza spazio nel tuo inventario per questo.'
+  hopper:
+    syncsuccess: '&aSincronizzazione effettuata con successo.'
+    syncsuccessmore: '&7Hai ancora &6%amount% &7link disponibili.'
+    desync: '&7Hai desincronizzato questo hopper.'
+    syncnext: '&7Clicca un''''altro hopper per sincronizzare'
+    syncself: '&cNon puoi sincronizzare un hopper a se stesso.'
+    syncdone: '&aNon hai piu sincronizzazioni a disposizione.'
+    already: '&cQuesto hopper è già sincronizzato.'
+    synctimeout: '&cSincronizzazione fallita.'
+    syncoutofrange: '&cQuesto blocco è fuori dal raggio degli hopper.'
+    syncdidnotplace: '&cSpiacente! Devi avere piazzato questo hopper per eseguire delle sincronizzazioni.'
+    toomany: '&cPuoi solo piazzare %amount% hoppers per ogni chunk...'
+    walkteleenabled: Il teletrasporto è stato abilitato per questo hopper.
+    walkteledisabled: Il cammino con teletrasporto è stato disattivato per questo hopper.
+    onlyone: '&cPuoi inserire un solo item alla volta-'
+    syncchest: '&7Hai sincronizzato il tuo &9%name% &7con questa chest.'
+    desyncchest: '&7Hai desincronizzato il tuo &9%name% &7con questa chest.'
+    autosell: '&7Il tuo hopper ha venduto &6%items% &7item dal valore di &6$%amount%&7.'

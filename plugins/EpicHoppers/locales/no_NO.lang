@@ -1,0 +1,79 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Neste'
+    back: '&9Tilbake'
+    nameformat: '&eLevel %level% &fTrakt'
+    lore: ''
+  word:
+    disabled: AVSLÅTT
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lStyrket!|&7Gjendstandens hastighet er styrket &6%amount%x&7 ganger.|&7Utløper: &6%time%&7.'
+    upgradewithxp: '&aOppgrader med XP'
+    upgradewithxplore: '&7Pris: &a%cost% levler'
+    upgradewitheconomy: '&aOppgrader med penger'
+    upgradewitheconomylore: '&7Pris: &a$%cost%'
+    currentlevel: '&6Trakt Level &7%level%'
+    nextlevel: '&6Neste Level &7%level%'
+    range: '&7Område: &6%range%'
+    amount: '&7Antall: &6%amount%'
+    teleport: '&7Teleportering: &6%enabled%'
+    filter: '&7Filter: &6%enabled%'
+    crafting: '&7Automatisk håndarbeid: &6%enabled%'
+    suction: '&7Oppsuging: &6%suction%'
+    autosell: '&7Automatisert salg: Hvert &6%seconds%s'
+    linkamount: '&7Overflyt: &6%amount%'
+    blockbreak: '&7Blokk knusing: &6vært %ticks% tik'
+    alreadymaxed: '&7Denne trakten er allerede makset ut!'
+    synclore: '|&7Venstre-klikk også klikk på en annen|&7trakt eller kiste for å koble!||&7Høyre-klikk for å fjærne kobling.|&7Koblet opp mot &6%amount% trakt(er)&7.'
+    perltitle: '&6Trykk for å teleportere'
+    perllore2: '|&7Venstre-klikk for å teleportere til|&7enden av kjeden.||&7Høyre-klikk for å bytte|&7teleportasjon utløsermodus.|&7Utløsermodus: &a%type%&7.'
+    filtertitle: '&cTrykk for å filtrere'
+    filterlore: '|&7Dette lar deg velge|&7hvilke gjendstander som går hvor'
+    craftingtitle: '&cTrykk for å sette opp automatisk håndarbeid'
+    craftinglore: '|&7Dette lar deg velge|&7hvilke gjendstander som|&7vil bli automatisk håndlagd.'
+    selltitle: '&6Trykk for å veksle automatisk selging'
+    selllore: '|&7Selger om &6%timeleft%s&7.'
+    synctrakt: '&6Trykk for å koble denne trakten'
+    rejectsync: '&6Trykk for å koble denne trakten for gjendstander du har filtrert.'
+  filter:
+    infotitle: '&aFilter informasjon'
+    infolore: '&7Gjendstander i den venstre kolonna|&7vil bli hvitelistet.||&7Gjendstander i den høyre kolonna|&7vil bli slettet.||&7Gjendstander i den midterste kolonna|&7vil bli svartelistet.||&cBruk av hvitelisten vil slå av|&cbåde svartelisten og automatisk sletting.'
+    whitelist: '&f&lHviteliste'
+    blacklist: '&8&lSvarteliste'
+    void: '&c&lSletting'
+# Command Messages
+command:
+  give:
+    success: '&7Du har blitt gitt en &6level %level% &7Trakt.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu har ikke tillatelse til det der.'
+  upgrade:
+    cannotafford: '&cDu har ikke penger til dette.'
+    success: '&7Du har oppgradert trakten til &6level %level%&7!'
+    maxed: '&7Du har makset ut trakten på level &6level %level%&7.'
+  inventory:
+    noroom: '&7Du har ikke plass i ditt inventar til dette.'
+  hopper:
+    syncsuccess: '&aKoblingen var vellykket.'
+    syncsuccessmore: '&7Du har &6%amount% &7flere koblinger igjen.'
+    desync: '&7Du har fjernet en kobling fra denne trakten.'
+    syncnext: '&7Trykk på en annen trakt eller kiste for å koble.'
+    syncself: '&cDu kan ikke linke denne trakten.'
+    syncdone: '&aDu har brukt opp alle ledige koblinger.'
+    already: '&cDenne trakten er allerede koblet.'
+    synctimeout: '&cTiden gikk ut for denne kobling.'
+    syncoutofrange: '&cDenne blokken er utenfor traktens rekkevidde.'
+    syncdidnotplace: '&cBeklager! Du må plassere denne trakten før du kan linke den opp til noe.'
+    toomany: '&cDu kan bare plassere %amount% trakter i en chunk...'
+    walkteleenabled: Teleportering er på.
+    walkteledisabled: Teleportering er av.
+    onlyone: '&cDu kan bare plassere en ting om gangen.'
+    syncchest: '&7Du har koblet &9%name% &7med denne kista.'
+    desyncchest: '&7Du har fjernet koblingen &9%name% &7fra denne kista.'

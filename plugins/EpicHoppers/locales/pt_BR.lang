@@ -1,0 +1,92 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Next'
+    back: '&9Back'
+    nameformat: '&eNível %level% &fFunil'
+    lore: ''
+  word:
+    disabled: DESATIVADO
+    enabled: ATIVADO
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lAtualmente boosteado!|&7Taxa de transferência de itens multiplicada por &6%amount%x&7.|&7Expira em &6%time%&7.'
+    upgradewithxp: '&aUpgrade com XP'
+    upgradewithxplore: '&7Custo: &a%cost% Níveis'
+    upgradewitheconomy: '&aUpgrade com ECO'
+    upgradewitheconomylore: '&7Custo: &a$%cost%'
+    currentlevel: '&6Nível do funil &7%level%'
+    nextlevel: '&6Próximo nível &7%level%'
+    range: '&7Alcance: &6%range%'
+    amount: '&7Quantidade: &6%amount%'
+    teleport: '&7Teleporte: &6%enabled%'
+    filter: '&7Filtro: &6%enabled%'
+    crafting: '&7AutoCrafting: &6%enabled%'
+    suction: '&7Sucção: &6%suction%'
+    autosell: '&7Venda Automática: Every &6%seconds%s'
+    linkamount: '&7Link Overflow: &6%amount%'
+    blockbreak: '&7Mineração: &6A cada %ticks% segundos'
+    alreadymaxed: '&7Esta funil já está no máximo!'
+    synclore: '|&7Clique com o botão esquerdo do mouse e clique em outro|&7funil ou báu para vincular!||&7Clique com o botão direito para desvincular.|&7Atualmente vinculado a &6%amount% recipiente(s)&7.'
+    perltitle: '&6Clique para Teleportar'
+    perllore2: '|&7Clique com o botão esquerdo para teleportar para|&7o fim da corrente.||&7Clique com o botão direito para mudar o|&7modo de disparo de teleporte.|&7Atualmente definido como: &a%type%&7.'
+    filtertitle: '&cClique para filtrar'
+    filterlore: '|&7Isso permite que você escolha|&7quais itens vão para onde.'
+    craftingtitle: '&cClique para configurar o AutoCrafting'
+    craftinglore: '|&7Isso permite que você escolha|&7qual item esse funil|&7criará automaticamente.'
+    selltitle: '&6Clique com o botão esquerdo para alternar a venda automática'
+    selllore: '&6Clique com o botão direito para ativar as notificações|&6Clique com a tecla Shift pressionada para abrir o filtro de venda automática||&7Venda em &6%timeleft%s&7.|&7Notificações: &6%state%&7.'
+    blocktitle: '&6Clique para alternar a mineração'
+    blocklore: '|&7Mineração está &6%enabled%&7.'
+    suctiontitle: '&6Sucção'
+    suctionlore: '|&7Clique com o botão esquerdo para alternar a sucção |&7(&6%status%&7).||&7Clique com o botão direito para definir o raio |&7(&6%radius%&7).'
+    synchopper: '&6Clique para vincular este funil'
+    rejectsync: '&6Clique para vincular itens rejeitados'
+  filter:
+    infotitle: '&aGuia do filtro'
+    infolore: '&7Itens colocados na coluna mais à esquerda|&7space will be whitelisted.||&7Items placed in the rightmost column|&7will be void.||&7Items placed in the middle column|&7will be blacklisted.'
+    whitelist: '&f&lWhite List'
+    blacklist: '&8&lBlack List'
+    void: '&c&lVoid'
+  autosell-filter:
+    infotitle: '&aGuia de filtro'
+    infolore: '&7Itens colocados na coluna esquerda|&7espaço será incluído na white list para venda automática.||&7Itens colocados na coluna da direita|&7serão incluídos na black list da venda automática.'
+    whitelist: '&f&lWhite List'
+    blacklist: '&8&lBlack List'
+# Command Messages
+command:
+  give:
+    success: '&7Você recebeu um funil de &6nível %level%.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cVocê não tem permissão para fazer isso.'
+  upgrade:
+    cannotafford: '&cVocê não pode pagar por esse upgrade.'
+    success: '&7Você atualizou com êxito este funil para o &6nível %level%&7!'
+    maxed: '&7Você atingiu o limite máximo desse funil no &6nível %level%&7.'
+  inventory:
+    noroom: '&7Você não tem espaço em seu inventário para isso.'
+  hopper:
+    syncsuccess: '&aLink Bem-sucedido.'
+    syncsuccessmore: '&7Você tem &6%amount% &7link(s) restante(s).'
+    desync: '&7Você desvinculou este funil.'
+    syncnext: '&7Clique em outro funil ou container para vincular.'
+    syncdone: '&aVocê atingiu seu limite máximo de links.'
+    already: '&cEste funil já está vinculada.'
+    synctimeout: '&cO tempo limite da vinculação expirou.'
+    synccanceled: '&cLink cancelado.'
+    syncstart: '&7Você tem &6%amount% &7links disponíveis. Quando terminar, clique no funil original.'
+    syncfinish: '&7Vinculação concluída.'
+    syncoutofrange: '&cEste bloco está fora do alcance do funil.'
+    syncdidnotplace: '&cDesculpa! Você precisa ter colocado esse funil para vincular coisas a ela.'
+    toomany: '&cVocê só pode colocar  %amount% funil por chunk...'
+    walkteleenabled: O teletransporte foi ativado para este funil.
+    walkteledisabled: A caminhada no teleporte foi desativada para este funil.
+    onlyone: '&cVocê só pode colocar um único item de cada vez.'
+    syncchest: '&7Você vinculou seu &9%name% &7com esse baú.'
+    desyncchest: '&7Você desvinculou seu &9%name% &7com esse baú.'
+    autosell: '&7Seu funil vendeu &6%items% &7item(s) por &6$%amount%&7.'

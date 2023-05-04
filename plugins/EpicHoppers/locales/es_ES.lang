@@ -1,0 +1,92 @@
+# Mensajes Generales
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Siguiente'
+    back: '&9Atrás'
+    nameformat: '&fTolva &eNivel %level%'
+    lore: ''
+  word:
+    disabled: ACTIVADO
+    enabled: DESACTIVADO
+# Mensajes de Interfaz
+interface:
+  hopper:
+    boostedstats: '&a&l¡Actualmente acelerado!|&7Objetos transferidos multiplicados por &6%amount%x&7.|&7Expira en &6%time%&7.'
+    upgradewithxp: '&aMejorar con XP'
+    upgradewithxplore: '&7Coste: &a%cost% Niveles'
+    upgradewitheconomy: '&aMejorar con Dinero'
+    upgradewitheconomylore: '&7Coste: &a$%cost%'
+    currentlevel: '&6Tolva de Nivel &7%level%'
+    nextlevel: '&6Siguiente de Nivel &7%level%'
+    range: '&7Rango: &6%range%'
+    amount: '&7Cantidad: &6%amount%'
+    teleport: '&7Teletransportación: &6%enabled%'
+    filter: '&7Filtro: &6%enabled%'
+    crafting: '&7AutoCrafteo: &6%enabled%'
+    suction: '&7Succión: &6%suction%'
+    autosell: '&7AutoVenta: Cada &6%seconds%s'
+    linkamount: '&7Cantidad de Enlaces: &6%amount%'
+    blockbreak: '&7RompeBloques: &6Cada %ticks% ticks'
+    alreadymaxed: '&7¡Esta tolva ya está al máximo!'
+    synclore: '|&7¡Click Izquierdo, luego click en|&7una tolva o un cofre para sincronizar!||&7Click Derecho para cancelar la sincronización.|&7Actualmente sincronizado a &6%amount% tolva(s)&7.'
+    perltitle: '&6Click para Teletransportarte'
+    perllore2: '|&7Click Izquierdo para teletransportarte|&7al final de la cadena.||&7Click Derecho para cambiar el|&7modo de teletransporte.|&7Actualmente esta establecido a: &a%type%&7.'
+    filtertitle: '&cHaz click para Filtrar'
+    filterlore: '|&7Esto te permite elegir|&7cuales objetos van adonde.'
+    craftingtitle: '&cHaz click para configurar el AutoCrafteo'
+    craftinglore: '|&7Esto te permite elegir|&7que objetos creará esta|&7tolva automáticamente.'
+    selltitle: '&6Click Izquierdo para cambiar el modo de AutoVenta'
+    selllore: '&6Click Derecho para habilitar/deshabilitar las notificaciones|&6Click Shifteando para abrir el filtro de AutoVenta|&7Vendiendo en &6%timeleft%s&7.|&7Notificaciones: &6%state%&7.'
+    blocktitle: '&6Click para cambiar el modo de RompeBloques'
+    blocklore: '|&7RompeBloques está establecido a &6%enabled%&7.'
+    suctiontitle: '&6Succión'
+    suctionlore: '|&7Click Izquierdo para cambiar el modo de Succión |&7(&6%status%&7).||&7Click Derecho para cambiar el radio de succión | &7Radio establecido en (&6%radius%&7).'
+    synchopper: '&6Haga clic para sincronizar esta tolva'
+    rejectsync: '&6Haga clic para sincronizar los objetos rechazados'
+  filter:
+    infotitle: '&aGuía de Filtro'
+    infolore: '&7Los objetos colocados en la parte izquierda|&7se permitiran.||&7Los objetos colocados en la parte derecha|&7se rechazarán.||&7Los objetos colocados en el medio|&7serán ignorados.'
+    whitelist: '&f&lLista Blanca'
+    blacklist: '&8&lLista Negra'
+    void: '&c&lVacío'
+  autosell-filter:
+    infotitle: '&aGuía de Filtro'
+    infolore: '&7Los objetos colocados en la parte izquierda|&7se permitiran para la AutoVenta.||&7Los objetos colocados en la parte derecha|&7se rechazarán de la AutoVenta.'
+    whitelist: '&f&lLista Blanca'
+    blacklist: '&8&lLista Negra'
+# Mensajes de Comandos
+command:
+  give:
+    success: '&7Has recibido una tolva de &6nivel %level%&7.'
+# Mensajes de Eventos
+event:
+  general:
+    nopermission: '&cNo tienes permitido hacer eso.'
+  upgrade:
+    cannotafford: '&cNo puedes permitirte pagar esta mejora.'
+    success: '&7¡Has mejorado esta tolva a &6nivel %level%&7!'
+    maxed: '&7Has llevado esta tolva al máximo (&6nivel %level%)&7.'
+  inventory:
+    noroom: '&7No tienes espacio suficiente en tu inventario.'
+  hopper:
+    syncsuccess: '&aSincronizado con éxito.'
+    syncsuccessmore: '&7Tienes &6%amount% &7sincronizacion(es) restantes.'
+    desync: '&7Has cancelado la sincronización de esta tolva.'
+    syncnext: '&7Haz click en otra tolva o contenedor para sincronizar.'
+    syncdone: '&aTus sincronizaciones estan al maximo.'
+    already: '&cEsta tolva ya esta sincronizada.'
+    synctimeout: '&cSe agotó el tiempo de espera.'
+    synccanceled: '&cSincronización cancelada.'
+    syncstart: '&7Tienes &6%amount% &7sincronizacion(es) disponible(s). Cuando acabes, haz click en la tolva original.'
+    syncfinish: '&7Sincronización completada.'
+    syncoutofrange: '&cEste bloque está muy lejos de la tolva.'
+    syncdidnotplace: '&c¡Lo sentimos! Necesitas colocar esta tolva para sincronizarla.'
+    toomany: '&cSolo puedes colocar %amount% tolvas por chunk...'
+    walkteleenabled: La teletransportación ha sido activada para esta tolva.
+    walkteledisabled: La teletransportación ha sido desactivada en esta tolva.
+    onlyone: '&cSolo puedes colocar un objeto a la vez.'
+    syncchest: '&7Has sincronizado el objeto &9%name% &7con este cofre.'
+    desyncchest: '&7Has cancelado la sincronización del objeto &9%name% &7con este cofre.'
+    autosell: '&7Tu tolva ha vendido &6%items% &7item(s) por el valor de &6$%amount%&7.'

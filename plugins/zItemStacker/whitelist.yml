@@ -1,0 +1,12 @@
+enableWhitelist: false
+whitelist:
+  '1':
+    material: MELON
+    data: 0
+    amount: 1
+    durability: 0
+  '2':
+    material: CACTUS
+    data: 0
+    amount: 1
+    durability: 0

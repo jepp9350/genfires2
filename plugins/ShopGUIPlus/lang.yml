@@ -1,0 +1,142 @@
+PREFIX: '&aMarket&8 ➡ &7'
+LANG:
+  CONSOLE: Console
+MSG:
+  ERROR: Error occurred, please contact the server owner.
+  INGAMEONLY: This command can be used only in the game.
+  NOACCESS: You don't have access to do this.
+  RELOADED: Configuration reloaded!
+  USAGE:
+    SUBCOMMAND: 'Invalid command usage. Correct usage: %usage%'
+  CMD:
+    SHOP:
+      ADDMODIFIER:
+        ITEM:
+          USAGE: /shop addmodifier item <player> <shop> <item> <value> [buy|sell]
+          ADDED: You set &c%player%&7's %type% price modifier for the %item% item
+            in %shop% shop to &c%modifier%&7.
+          ADDEDBY: Your %type% price modifier for the %item% item in %shop% shop was
+            set to &c%modifier%&7 by &c%player%&7.
+        SHOP:
+          USAGE: /shop addmodifier shop <player> <shop> <value> [buy|sell]
+          ADDED: You set &c%player%&7's %type% price modifier for all items in %shop%
+            shop to &c%modifier%&7.
+          ADDEDBY: Your %type% price modifier for all items in %shop% shop was set
+            to &c%modifier%&7 by &c%player%&7.
+        GLOBAL:
+          USAGE: /shop addmodifier global <player> <value> [buy|sell]
+          ADDED: You set &c%player%&7's %type% price modifier to &c%modifier%&7.
+          ADDEDBY: Your %type% price modifier was set to &c%modifier%&7 by &c%player%&7.
+      CHECKMODIFIERS:
+        VIEW:
+          VIEW: |-
+            &c%player%&7's modifiers:
+            Global modifiers:
+            %global%
+            Shop modifiers:
+            %shop%
+            Item modifiers:
+            %item%
+          ENTRY:
+            ITEM: 'Item: &c%item%&7, shop: &c%shop%&7, buy: &c%buy%&7, sell: &c%sell%&7'
+            SHOP: 'Shop: &c%shop%&7, buy: &c%buy%&7, sell: &c%sell%&7'
+            GLOBAL: 'Buy: &c%buy%&7, sell: &c%sell%&7'
+      RESETMODIFIER:
+        ITEM:
+          USAGE: /shop resetmodifier item <player> <shop> <item> [buy|sell]
+          RESET: You reset &c%player%&7's %type% price modifier for the %item% item
+            in %shop% shop.
+          RESETBY: Your %type% price modifier for the %item% item in %shop% shop was
+            reset by &c%player%&7.
+        SHOP:
+          USAGE: /shop resetmodifier shop <player> <shop> [buy|sell]
+          RESET: You reset &c%player%&7's %type% price modifier for all items in %shop%
+            shop.
+          RESETBY: Your %type% price modifier for all items in %shop% shop was set
+            to by &c%player%&7.
+        GLOBAL:
+          USAGE: /shop resetmodifier global <player> [buy|sell]
+          RESET: You reset &c%player%&7's %type% price modifier.
+          RESETBY: Your %type% price modifier was set to &c%modifier%&7 by &c%player%&7.
+      CHECK:
+        ITEM: This item's type is &c%material%&f with damage &c%damage%&f.
+        NOITEM: You have to hold an item in your hand in order to check its type.
+  MODIFIER:
+    INVALIDAMOUNT: Invalid modifier value specified. Valid values are for instance
+      0.50 which is 50%, 2.0 which is 200% etc.
+    INVALIDTYPE: Invalid modifier type specified. Valid values are buy, sell and both.
+    BUY: buy
+    SELL: sell
+    BOTH: buy & sell
+  INVALIDPLAYER: Invalid player name specified.
+  INVALIDSHOP: Shop with ID &c(%shop%)&7 not found.
+  INVALIDITEM: Item with ID &c(%item%)&7 not found in &c%shop%&7.
+  NOACCESSTOSHOP: You don't have access to &c(%shop%)&7 shop.
+  NODIRECTACCESSTOSHOP: You can't access the &c(%shop%)&7 shop.
+  MAINMENUDISABLED: You can't use this command. Please use /shop <id> instead.
+  WORLDBLACKLISTED: You can't access %shop% in this world.
+  WORLDBANNED: You can't access the shop in this world.
+  WORLDBANNEDTARGET: '%player% can''t access the shop in that world.'
+  GAMEMODEBANNED: You can't access the shop when in gamemode %gamemode%.
+  GAMEMODEBANNEDTARGET: '%player% can''t access the shop when in gamemode %gamemode%.'
+  ITEM:
+    FULLINVENTORY: You do not have enough inventory space.
+    CANNOTAFFORD: You need &a&l&a%price%&7 to buy &c(%amount% ❖ %item%)&7.
+    CANNOTBUY: You can not buy this item.
+    CANNOTSELL: You can not sell this item.
+    BOUGHT: You bought &a(%amount% ❖ %item%)&7 for &a&l&a%price%&7.
+    BOUGHTFREE: You got &a(%amount% ❖ %item%)&7.
+    NOTENOUGH: You don't have &c(%amount% ❖ %item%)&7 to sell.
+    SOLD: You sold &c(%amount% ❖ %item%)&7 for &a&l&a%price%&7.
+    SOLDFREE: You gave away &a(%amount% ❖ %item%)&7.
+    SOLDALL: You sold everything &c%item%&c (%amount% ❖ %item%)&7 for &a&l&a%price%&7.
+    SOLDALLFREE: You gave away all &e%item%&a (%amount% ❖ %item%&7).
+    NOACCESS: You do not have access to this item.
+  ENCHANT:
+    CANNOTAPPLY: Enchantment &c%enchantment%&7 cannot be applied to the item you're
+      holding.
+    ALREADYAPPLIED: This item already has &c(%enchantment%)&7 applied.
+    LEVELDIFF: You need an item with at least &c(%enchantment% %level%)&7 applied.
+    CANNOTAFFORD: You need &a&l&a%price%&7 to buy &c(%enchantment%)&7.
+    MAX: This item already has the maximum amount of enchantments &c(%amount%)&7.
+    TOOMANY: You can't enchant more than &c(%amount%)&7 items at once.
+    BOUGHT: You bought &c(%enchantment%)&7 enchantment for &a&l&a%price%&7.
+    BOUGHTFREE: You received &c%enchantment%&f.
+  PERMISSION:
+    PERMISSIONSDISABLED: Permissions are disabled, please contact server's owner.
+    ALREADYHAVE: You already have the &c%permission%&7 permission.
+    CANNOTAFFORD: You need &a&l&a%price%&7 to buy &c(%permission%)&7.
+    BOUGHT: You bought &a(%permission%)&7 permission for &a&l&a%price%&7.
+    BOUGHTFREE: You received &c%permission%&f.
+  COMMAND:
+    BOUGHT: You bought &e(%command%)&7 for &a&l&a%price%&7.
+    CANNOTAFFORD: You need &a&l&a%price%&7 to buy this command.
+    BOUGHTFREE: You received &c%command%&f.
+  SELLHAND:
+    NOITEM: You have to hold an item in your hand in order to sell it.
+    INVALIDQUANTITY: Invalid quantity specified. Must be between &c1 &7and &c%max%.
+    CANNOTSELL: You can't sell this item.
+    MULTIPLEQUANTITYONLY: You can't sell that quantity. Only multiples of %quantity%
+      are allowed for this item.
+  SELLHANDALL:
+    SOLD: You sold &a(%quantity% ❖ %item%) &7for a total of &a&l&a%price%&7.
+  SELLALL:
+    NOITEMS: You don't have any items you can sell.
+    SOLD: You sold &a(%quantity%) &7items for a total of &a&l&a%price%&7.
+    INVALIDSHOP: Invalid shop specified.
+  AND: ' and '
+  NOTLOADED: Shops haven't been loaded yet, please try again later.
+DIALOG:
+  AMOUNTSELECTION:
+    BUY:
+      NAME: '&8Buying (&a%item%&8)'
+    SELL:
+      NAME: '&8Selling &8(&a%item%&8)'
+    BULKBUY:
+      NAME: '&8Buy stacks of &a%item%'
+    BULKSELL:
+      NAME: '&8Sell stacks of &a%item%'
+SHOP:
+  PERMISSION:
+    ALREADYOWNED: '&4(Already owned)'
+    NOTOWNED: '&a(Not owned)'

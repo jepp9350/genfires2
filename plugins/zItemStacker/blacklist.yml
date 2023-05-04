@@ -1,0 +1,12 @@
+enableBlacklist: false
+blacklist:
+  '1':
+    material: BEDROCK
+    data: 0
+    amount: 1
+    durability: 0
+  '2':
+    material: DIAMOND
+    data: 0
+    amount: 1
+    durability: 0

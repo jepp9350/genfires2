@@ -1,0 +1,117 @@
+#
+# Edit custom variables in game if possible
+# Some extra variables can be used, like [playerName] will insert senders name automatically
+# All global variables should work, you can find full list in locale file
+# You can add delay between commands by inserting line like
+# delay! 5
+# This will delay next commands by defines time in seconds
+# If command is shortened and you need to provide some changing variables like target player name you need to define what and where it should be placed
+# Example: /cmi heal Zrips 
+# Can be shortened with custom alias to something like /h zrips by using alias command like
+# cmi heal $1
+# If you need to add more than one variable, use $1- format. Number represents variable place when used in alias command
+# Example: cmi tppos $1-
+# In case you want to print out help page if player enters wrong subcommand, use ? in alias
+# Example: ca ?
+# In this case if player performs /ca wrongsub or /ca anotherwrong
+# Commands under this alias will get executed. Exelent way to show help page and correct usage if needed
+
+CustomAlias:
+  warp:
+    Cmds:
+    - cmi warp $1-
+  setwarp:
+    Cmds:
+    - cmi setwarp $1-
+  spawn:
+    Cmds:
+    - cmi spawn $1-
+  kit:
+    Cmds:
+    - cmi kit $1-
+  kiteditor:
+    Cmds:
+    - cmi kiteditor $1-
+  kitcreate:
+    Cmds:
+    - cmi kiteditor $1-
+  helpop:
+    Cmds:
+    - cmi helpop $1-
+  skin:
+    Cmds:
+    - cmi skin $1-
+  nick:
+    Cmds:
+    - cmi nick $1-
+  nickname:
+    Cmds:
+    - cmi nick $1-
+  warn:
+    Cmds:
+    - cmi warn $1-
+  warnings:
+    Cmds:
+    - cmi warnings $1-
+  mute:
+    Cmds:
+    - cmi mute $1-
+  unmute:
+    Cmds:
+    - cmi unmute $1-
+  sameip:
+    Cmds:
+    - cmi sameip $1-
+  kick:
+    Cmds:
+    - cmi kick $1-
+  banknote:
+    Cmds:
+    - cmi cheque $1-
+  lookup:
+    Cmds:
+    - cmi info $1-
+    - cmi warnings $1-
+    - cmi note $1-
+  resetgens:
+    Cmds:
+    - ex flag <server.match_offline_player[$1-]> generatorlist:!
+    - ex flag <server.match_offline_player[$1-]> xp_generatorlist:!
+    - ex flag <server.match_offline_player[$1-]> token_generatorlist:!
+  sell:
+    Cmds:
+    - shopguiplus:sell all
+  givetoken:
+    Cmds:
+    - ex if !<server.match_offline_player[$1].flag[tokens]||0> >= 1 {flag <server.match_offline_player[$1]>
+      tokens:0
+    - ex flag <server.match_offline_player[$1]> tokens:+:$2
+    Perm: true
+  playtimetop:
+    Cmds:
+    - cmi playtimetop $1-
+  ride:
+    Cmds:
+    - cmi ride $1-
+  colorpicker:
+    Cmds:
+    - cmi colorpicker $1-
+  whatkeyall:
+    Cmds:
+    - 'cmi broadcast !&a FAQ &8(Help Edition)&a: &2What''s a keyall?'
+    - cmi broadcast ! &7 A &2keyall &7is an item, that's given each 10 minutes by
+      default.
+    - cmi broadcast ! &7 It's used to trade with the NPC at &2/warp crates&7.
+    - 'cmi broadcast ! &7 Go to warp crates, to use it: &2/keyall'
+  clearchat:
+    Cmds:
+    - cmi clearchat $1-
+  sc:
+    Cmds:
+    - cmi staffmsg $1-
+  sellhand:
+    Cmds:
+    - shopguiplus:sell hand
+  store:
+    Cmds:
+    - buy

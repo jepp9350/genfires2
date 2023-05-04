@@ -1,0 +1,98 @@
+  ores:
+    name: "&8&nResources [page %page%/1]"
+    size: 45
+    buttons:
+      goBack:
+        slot: 40
+      previousPage:
+        slot: 39
+      nextPage:
+        slot: 41
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: ""   
+    items:
+      59:
+        type: item
+        item:
+          material: wheat
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 1.25
+        slot: 11
+      1:
+        type: item
+        item:
+          material: COAL
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 2.5
+        slot: 12
+      4:
+        type: item
+        item:
+          material: iron_ingot
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 7.5
+        slot: 13
+      5:
+        type: item
+        item:
+          material: gold_ingot
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 22.5
+        slot: 14
+      6:
+        type: item
+        item:
+          material: diamond
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 67.5
+        slot: 15
+      7:
+        type: item
+        item:
+          material: emerald
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 202.5
+        slot: 20
+      19:
+        type: item
+        item:
+          material: NETHERITE_INGOT
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 607.5
+        slot: 21
+      20:
+        type: item
+        item:
+          material: quartz
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 1822.5
+        slot: 22
+      21:
+        type: item
+        item:
+          material: amethyst_shard
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 5467.5
+        slot: 23
+      22:
+        type: item
+        item:
+          material: nether_star
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 16402.5
+        slot: 24
+      44:
+        type: special
+        special: balance
+        slot: 44        

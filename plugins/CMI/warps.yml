@@ -1,0 +1,31 @@
+Crates:
+  Location: Main_Gen;4.5;45.0;-120.5;-178.8;-2.4
+  Creator: 99ce4dd8-e2ce-4da4-a894-39439030b120
+Plot:
+  Location: GenFire;0.5;63.0;0.5;0.19;0.57
+  Creator: 99ce4dd8-e2ce-4da4-a894-39439030b120
+new_spawn:
+  Location: Main_Gen;31.81;-60.0;-82.96;162.3;-6.45
+  ReqPerm: true
+  HideFromList: true
+  Creator: 90c5b2d7-e863-407e-90c9-ae1481e7f469
+TopPlayers:
+  Location: Main_Gen;55.5;20.0;-231.5;-89.68;-1.2
+  Creator: 99ce4dd8-e2ce-4da4-a894-39439030b120
+SmallPvP:
+  Location: Main_Gen;2109.94;117.0;4207.79;-179.99;0.58
+  sLocs:
+  - Main_Gen;2107.91;117.0;4207.28;-179.69;8.39
+  - Main_Gen;2112.23;117.0;4207.29;-179.69;8.39
+  ReqPerm: true
+  AutoLore: false
+  Slots: 4
+  Creator: b02b6e5b-cc14-407a-97c7-2316a678fcf1
+pviadhsfih:
+  Location: Main_Gen;2109.94;117.0;4207.79;-179.84;5.24
+  ReqPerm: true
+  Slots: 8
+  Creator: b02b6e5b-cc14-407a-97c7-2316a678fcf1
+Info:
+  Location: Main_Gen;143.38;-60.0;-209.6;-89.27;2.24
+  Creator: b02b6e5b-cc14-407a-97c7-2316a678fcf1

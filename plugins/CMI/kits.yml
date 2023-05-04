@@ -1,0 +1,1150 @@
+Starter:
+  CommandName: Starter
+  DisplayName: Starter kit
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: WHEAT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Starter"}],"text":""}'
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BARRIER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"You''ve
+        already claimed "},{"italic":false,"color":"yellow","text":"Starter "},{"italic":false,"color":"red","text":"kit
+        today!"}],"text":""}'
+  Items:
+    '28':
+      v: 2975
+      type: HAY_BLOCK
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Wheat"},{"italic":false,"color":"dark_gray","text":"
+          Generator "},{"italic":false,"color":"black","text":"("},{"italic":false,"color":"white","text":"Lvl.
+          1"},{"italic":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a wheat generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          wheat."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYRAsz0hNLIlPT81LLUosyS+KN+RiYIcq42BgTctJTC9mcMhNLHCIhquxLSkqTbXOTSxJLcpMzLEFm2Cdk1qWmmNraJ2SWVyQk1iZl5ibantoeWo4SDKWgQEAwaDmgYAAAAA=
+    '29':
+      v: 2975
+      type: WATER_BUCKET
+    '30':
+      v: 2975
+      type: HOPPER
+      amount: 3
+    '32':
+      v: 2975
+      type: BLAZE_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Sell
+          wand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used: "},{"italic":false,"color":"dark_gray","text":"100 times"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Multiply:
+          "},{"italic":false,"color":"dark_gray","text":"1.00"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeAsTs3J0S1PzEvhYmCHSnMwsKblJKYXM+jnJhY4RCcnFiQmZ5ZU2hoaGFjDlduWFJWmWueW5pRkFuQA5fQMDGIZGACBrhC1ZwAAAA==
+    '35':
+      v: 2975
+      type: STONE_BRICKS
+      amount: 64
+    '36':
+      v: 2975
+      type: STONE_PICKAXE
+Coal:
+  CommandName: Coal
+  DisplayName: Coal kit
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#323232","text":"C"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#444444","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#565656","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#686868","text":"l"}],"text":""}'
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BARRIER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"You
+        already claimed "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#323232","text":"C"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#444444","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#565656","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#686868","text":"l
+        "},{"italic":false,"color":"red","text":"kit today!"}],"text":""}'
+  Items:
+    '28':
+      v: 2975
+      type: GOLD_BLOCK
+      amount: 25
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Gold"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+          Generator "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":"("},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lvl.
+          1"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a gold generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          gold."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/0XMPQoCMRBA4WnEZTsbz2FQRAiBFQSxthQJw+4YAvljMip6Ie/hydxCtP/eawEamO0o+Selg1A89uyLwNzlMFifXBbrKBGjZLaqhenXNjC5BHQV+oilO/2MEb6SjijEHoP5b3SgGwWj9OBrCfhIGMm8X+v9KHS+j7nZMlZMA7FarDa6MFXxjszyDPABYBv96agAAAA=
+    '29':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '31':
+      v: 2975
+      type: MAGENTA_CANDLE
+      amount: 12
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Rare
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key that takes skill to get"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: rare
+    '32':
+      v: 2975
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Cheque
+          for "},{"italic":false,"color":"gold","text":"$1,000,000"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Issued
+          by "},{"italic":false,"color":"gray","text":"OverK1LL"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Right
+          click to deposit"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYGBh4PbNz0utdM5ILSxNZQABficHBgCHl7vKGgAAAA==
+    '33':
+      v: 2975
+      type: LIGHT_BLUE_CANDLE
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Legendary
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the richest can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: legendary
+    '35':
+      v: 2975
+      type: BLAZE_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Sell
+          wand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used: "},{"italic":false,"color":"dark_gray","text":"50 times"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Multiply:
+          "},{"italic":false,"color":"dark_gray","text":"1.50"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeAuTs3J0S1PzEvRNeJiYIcq4GBgTctJTC9m0MtNLHCITk4sSEzOLKm0NTWwhqu3LSkqTbXOLc0pySzIqbQ11DM1iGVgAAA4wKDeaAAAAA==
+    '36':
+      v: 2975
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#323232","text":"C"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#444444","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#565656","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#686868","text":"l
+          "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Pickaxe"}],"text":""}'
+        enchants:
+          DIG_SPEED: 7
+          DURABILITY: 5
+Iron:
+  CommandName: Iron
+  DisplayName: Iron kit
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#7E7E7E","text":"I"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9E9E9E","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BFBFBF","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DFDFDF","text":"n"}],"text":""}'
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BARRIER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"You
+        already claimed "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#7E7E7E","text":"I"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9E9E9E","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BFBFBF","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DFDFDF","text":"n
+        "},{"italic":false,"color":"red","text":"kit today!"}],"text":""}'
+  Items:
+    '20':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '28':
+      v: 2975
+      type: EMERALD_BLOCK
+      amount: 25
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Emerald"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+          Generator "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":"("},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lvl.
+          1"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a emerald generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          emerald."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/z2MsQrCMBRF3yKWbuKPWHUQQqCCDs6OIuXRXEMgScNLVPSH/A+/zA7F7cA999REFS0OiO6NeCoI515cKrREgLA3nUUcoQzSNTXNJ7Gi2c2zzdQHTu3l7+gid6jABeLY66mhPB7wulHG5eT5FTlAfz/r4zQPz/Gu98KZo4E0q+1OJUEuzkJvrkQ/xnfApaUAAAA=
+    '29':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '31':
+      v: 2975
+      type: LIGHT_BLUE_CANDLE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Legendary
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the richest can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: legendary
+    '32':
+      v: 2975
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Cheque
+          for "},{"italic":false,"color":"gold","text":"$50,000,000"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Issued
+          by "},{"italic":false,"color":"gray","text":"OverK1LL"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Right
+          click to deposit"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYGBh4PbNz0utdM5ILSxNZQACpl8fGhgAQt/jDBoAAAA=
+    '33':
+      v: 2975
+      type: LIGHT_BLUE_CANDLE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Legendary
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the richest can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: legendary
+    '35':
+      v: 2975
+      type: BLAZE_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Sell
+          wand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used: "},{"italic":false,"color":"dark_gray","text":"25 times"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Multiply:
+          "},{"italic":false,"color":"dark_gray","text":"1.70"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeAuTs3J0S1PzEvRNeZiYIcq4GBgTctJTC9m0MtNLHCITk4sSEzOLKm0NTK1hqu3LSkqTbXOLc0pySzIqbQ11DM3iGVgAACZi9JjaAAAAA==
+    '36':
+      v: 2975
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#7E7E7E","text":"I"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9E9E9E","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BFBFBF","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DFDFDF","text":"n
+          "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Pickaxe"}],"text":""}'
+        enchants:
+          DIG_SPEED: 8
+          DURABILITY: 6
+Gold:
+  CommandName: Gold
+  DisplayName: Gold kit
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"Gold"}],"text":""}'
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BARRIER
+  Items:
+    '11':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '20':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '28':
+      v: 2975
+      type: QUARTZ_PILLAR
+      amount: 25
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Quartz"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+          Generator "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":"("},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lvl.
+          1"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a quartz generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          quartz."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/z2MSwrCMBCGZyOW7vQkFl0IIaDgxqW4FCmD/S2BJI2TqWIv5D08mULF9fcoiQqa7RDdgLhXhONFXFKa33oWHeoWEcLaSV2VNP15BU2unttMHDhtTn/HqvQwgRXi2NtxYTzu8LYyjcvJ8zNygH2/roeRdo9vbLfCmWMDqRartUmCrK6FXZ6JPmED1gSiAAAA
+    '29':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '31':
+      v: 2975
+      type: LIGHT_BLUE_CANDLE
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Legendary
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the richest can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: legendary
+    '32':
+      v: 2975
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Cheque
+          for "},{"italic":false,"color":"gold","text":"$250,000,000"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Issued
+          by "},{"italic":false,"color":"gray","text":"OverK1LL"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Right
+          click to deposit"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYGBh4PbNz0utdM5ILSxNZQACvmebGhgAyoPCoBoAAAA=
+    '33':
+      v: 2975
+      type: LIGHT_BLUE_CANDLE
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Legendary
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the richest can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: legendary
+    '35':
+      v: 2975
+      type: BLAZE_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Sell
+          wand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used: "},{"italic":false,"color":"dark_gray","text":"75 times"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Multiply:
+          "},{"italic":false,"color":"dark_gray","text":"2.00"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeAuTs3J0S1PzEvRNeFiYIcq4GBgTctJTC9m0MtNLHCITk4sSEzOLKm0NTe1hqu3LSkqTbXOLc0pySzIqbQ10jMwiGVgAABNJxgQaAAAAA==
+    '36':
+      v: 2975
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FAFF00","text":"G"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFD2D","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDFC5B","text":"l"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFA88","text":"d
+          "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Pickaxe"}],"text":""}'
+        enchants:
+          DIG_SPEED: 10
+          DURABILITY: 7
+Diamond:
+  CommandName: Diamond
+  DisplayName: Diamond kit
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"Diamond"}],"text":""}'
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BARRIER
+  Items:
+    '2':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '11':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '20':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '28':
+      v: 2975
+      type: LODESTONE
+      amount: 25
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Star"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+          Generator "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":"("},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lvl.
+          1"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a star generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          stars."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/03MMQrCQBBG4WnEkM7Kaxi0EJYFBRvrlCJhML9xYXezzI6KXij3yMlUELF+H68kKmi2Q3RPxL0i1CdxSWkeoRdIk5Wl6RAhrL00VUnTLy5ocvbcZeoCp83hZ6zKFSawQhx7+/cxHjd4W5nW5eT5ETnAjgPGIdaf3N/fC7sVzhxbSLVYrU0SZHUd7PJI9AJlFxSKrQAAAA==
+    '29':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '31':
+      v: 2975
+      type: BLUE_CANDLE
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Epic
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the richest of the richest can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: epic_key
+    '32':
+      v: 2975
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Cheque
+          for "},{"italic":false,"color":"gold","text":"$1,000,000,000"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Issued
+          by "},{"italic":false,"color":"gray","text":"OverK1LL"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Right
+          click to deposit"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYGBh4PbNz0utdM5ILSxNZQAC61mnGBgAuwqLiRoAAAA=
+    '33':
+      v: 2975
+      type: BLUE_CANDLE
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Epic
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the richest of the richest can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: epic_key
+    '35':
+      v: 2975
+      type: BLAZE_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Sell
+          wand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used: "},{"italic":false,"color":"dark_gray","text":"50 times"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Multiply:
+          "},{"italic":false,"color":"dark_gray","text":"2.50"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeAuTs3J0S1PzEvRNeViYIcq4GBgTctJTC9m0MtNLHCITk4sSEzOLKm0NTWwhqu3LSkqTbXOLc0pySzIqbQ10jM1iGVgAAASpcGpaAAAAA==
+    '36':
+      v: 2975
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00A3FF","text":"D"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#14B1FF","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#27BFFF","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3BCDFF","text":"m"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4FDBFF","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#62E9FF","text":"n"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#76F7FF","text":"d
+          "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Pickaxe"}],"text":""}'
+        enchants:
+          DIG_SPEED: 12
+          DURABILITY: 9
+Emerald:
+  CommandName: Emerald
+  DisplayName: Emerald kit
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: EMERALD_BLOCK
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BARRIER
+  Items:
+    '2':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '11':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '20':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '21':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '28':
+      v: 2975
+      type: BLUE_GLAZED_TERRACOTTA
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Token"},{"italic":false,"color":"dark_gray","text":"
+          Generator "},{"italic":false,"color":"black","text":"("},{"italic":false,"color":"white","text":"Tier.
+          2"},{"italic":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a token generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          tokens."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/z2MvQrCMBRG7yKWboIvUtcQcHBxtk4i4Wo+SzBJw+2tUF/I9/DJRPxZznTOqYkqWmyQwx15q0i7s4SitDzFEc5PcB0yhLUX19Q0/5oVzS6Ru4H2icv68HesygiTWCGBo/1NTMQN0TbGh6FEnjIn2OfDt/0V2eibn1IDxK6ORC/9lg0mmAAAAA==
+    '29':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '30':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '32':
+      v: 2975
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Cheque
+          for "},{"italic":false,"color":"gold","text":"$10,000,000,000"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Issued
+          by "},{"italic":false,"color":"gray","text":"OverK1LL"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Right
+          click to deposit"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYGBh4PbNz0utdM5ILSxNZWBgYArhfsLAAAAHpg7oGgAAAA==
+    '33':
+      v: 2975
+      type: BLACK_CANDLE
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Super
+          Epic Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the king can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: super_epic
+    '35':
+      v: 2975
+      type: BLAZE_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Sell
+          wand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used: "},{"italic":false,"color":"dark_gray","text":"25 times"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Multiply:
+          "},{"italic":false,"color":"dark_gray","text":"2.70"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeAuTs3J0S1PzEvRNeNiYIcq4GBgTctJTC9m0MtNLHCITk4sSEzOLKm0NTK1hqu3LSkqTbXOLc0pySzIAUrpmRvEMjAAAAoQyGVoAAAA
+    '36':
+      v: 2975
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#559800","text":"E"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#56A90B","text":"m"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#57BA16","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#58CC21","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#59DD2B","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5AEE36","text":"l"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5BFF41","text":"d
+          "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Pickaxe"}],"text":""}'
+        enchants:
+          DIG_SPEED: 15
+          DURABILITY: 13
+Token:
+  CommandName: Token
+  DisplayName: Token kit
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BEACON
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BARRIER
+  Items:
+    '2':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '3':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '11':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '12':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '20':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '21':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '28':
+      v: 2975
+      type: CYAN_GLAZED_TERRACOTTA
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Token"},{"italic":false,"color":"dark_gray","text":"
+          Generator "},{"italic":false,"color":"black","text":"("},{"italic":false,"color":"white","text":"Tier.
+          4"},{"italic":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a token generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          tokens."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/z2MvQoCMRAGtxGP6wRf5MAuBCxsrNVKJCyXzyOY7IXcKsQX8j18MhF/mqlmpiVqaLGBhDtkq0i7voSstOwri/MVboCgsI7FdS3Nv2ZDs3PkYaJD4rw+/h2r5QqTWFECR/ubmIgbou2MD1OOXIUT7PPh9+MFYvTNT6kBxa5ORC94p0oWmAAAAA==
+    '29':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '30':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '32':
+      v: 2975
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Cheque
+          for "},{"italic":false,"color":"gold","text":"$25,000,000,000"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Issued
+          by "},{"italic":false,"color":"gray","text":"OverK1LL"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Right
+          click to deposit"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYGBh4PbNz0utdM5ILSxNZWBgYL0ku4uBAQB02P3YGgAAAA==
+    '33':
+      v: 2975
+      type: PURPLE_CANDLE
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Rarest
+          Epic Crate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key worth more then the entire world"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: rarest_epic
+    '35':
+      v: 2975
+      type: BLAZE_ROD
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Sell
+          wand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used: "},{"italic":false,"color":"dark_gray","text":"25 times"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Multiply:
+          "},{"italic":false,"color":"dark_gray","text":"2.70"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeAuTs3J0S1PzEvRNeNiYIcq4GBgTctJTC9m0MtNLHCITk4sSEzOLKm0NTK1hqu3LSkqTbXOLc0pySzIAUrpmRvEMjAAAAoQyGVoAAAA
+    '36':
+      v: 2975
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"aqua","text":":"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0080B7","text":"T"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#249BC9","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48B6DB","text":"k"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6CD0ED","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#90EBFF","text":"n"},{"bold":true,"italic":false,"obfuscated":true,"color":"aqua","text":":
+          "},{"bold":false,"italic":false,"obfuscated":false,"color":"gray","text":"Pickaxe"}],"text":""}'
+        enchants:
+          DIG_SPEED: 20
+          DURABILITY: 18
+Op_Key_Bundle:
+  CommandName: Op_Key_Bundle
+  Enabled: false
+  Delay: 10
+  Items:
+    '28':
+      v: 2975
+      type: NETHER_STAR
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Star
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key well deserved"}],"text":""}'
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: star
+    '29':
+      v: 2975
+      type: HEART_OF_THE_SEA
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Sea
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key like no one else"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: sea
+    '30':
+      v: 2975
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Crystal
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          really powerfull key"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: crystal
+    '35':
+      v: 2975
+      type: MAGMA_CREAM
+      amount: 48
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Epic
+          KeyFragment"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+          to buy really good keys"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+    '36':
+      v: 2975
+      type: BLACK_CANDLE
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Super
+          Epic Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key only the king can efford"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: super_epic
+Ultimate:
+  CommandName: Ultimate
+  Delay: 86400
+  Items:
+    '4':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '5':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '13':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '14':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '19':
+      v: 2975
+      type: CYAN_GLAZED_TERRACOTTA
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Token"},{"italic":false,"color":"dark_gray","text":"
+          Generator "},{"italic":false,"color":"black","text":"("},{"italic":false,"color":"white","text":"Tier.
+          4"},{"italic":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a token generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          tokens."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/z2MvQoCMRAGtxGP6wRf5MAuBCxsrNVKJCyXzyOY7IXcKsQX8j18MhF/mqlmpiVqaLGBhDtkq0i7voSstOwri/MVboCgsI7FdS3Nv2ZDs3PkYaJD4rw+/h2r5QqTWFECR/ubmIgbou2MD1OOXIUT7PPh9+MFYvTNT6kBxa5ORC94p0oWmAAAAA==
+    '22':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '23':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '28':
+      v: 2975
+      type: SHROOMLIGHT
+      amount: 12
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6A500","text":"Glow
+          berry"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+          Generator "},{"italic":false,"color":"black","text":"("},{"italic":false,"color":"white","text":"Lvl.
+          1"},{"italic":false,"color":"black","text":")"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is a Glow Berry generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          Glow Berries."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          1"}],"text":""}'
+        internal: H4sIAAAAAAAA/02MPQoCMRQGXyMu29lZegS30GYJiAhibSkSn/q5BJJseBt/L5R75GQuKCJMOTMlUUGjFbx5wW8i3PYkJkQaN7a96yNEDDrdwEM4tqKrkoZfu6DBxXLT0cFxWOx+jopyRe04Qgxb9T+qLW6wqqrPpguWn54dVE6PnJDTPCfOaZbTtGfdV5Plp9oTvQEstQkVpwAAAA==
+    '29':
+      v: 2975
+      type: CHISELED_POLISHED_BLACKSTONE
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"XP"},{"italic":false,"color":"dark_gray","text":"
+          Generator"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+          is an XP generator."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Place
+          this on your plot to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"generate
+          XP blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Level:
+          2"}],"text":""}'
+        internal: H4sIAAAAAAAA/z2MMQrCQBBFpxFDOgsvknZZsLCxE7QQRMJgvmFxdrLsjqJeyHt4MkUl1WveezVRRbMlNDygK0PcHHNIRvMOSEXY0PZQZLYht01N079a0eQk3BfaRk6L/eh4yxe4+OlyYPHjxQmuEN+4LpQkfFeO8K8ndmtnwxn6627pywPRGzyHu+qYAAAA
+    '30':
+      v: 2975
+      type: BLAZE_ROD
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Sell
+          wand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used: "},{"italic":false,"color":"dark_gray","text":"25 times"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Multiply:
+          "},{"italic":false,"color":"dark_gray","text":"3.60"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeApTs3J0S1PzEvRNTTiYmCHquBgYE3LSUwvZtDLTSxwiE5OLEhMziyptDUytYZrsC0pKk21zi3NKcksyKm0NdYzM4hlYAAAr0ItoWkAAAA=
+    '31':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '32':
+      v: 2975
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '33':
+      v: 2975
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Star
+          Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+          key well deserved"}],"text":""}'
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: star
+    '34':
+      v: 2975
+      type: FLOWER_BANNER_PATTERN
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"⛁100K"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Click
+          to deposit."}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        internal: H4sIAAAAAAAA/+NiYOBgEHRJzcusSs3zLEnNDU4uyiwoYeApyc9OzYtPzkgtLE3lYmCHquBgYE3LSUwvZuDPTSxwiM7ITEkttnX08YllYAAAymOHHEoAAAA=
+    '35':
+      v: 2975
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Cheque
+          for "},{"italic":false,"color":"gold","text":"$50,000,000,000"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Issued
+          by "},{"italic":false,"color":"gray","text":"OverK1LL"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Right
+          click to deposit"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYGBh4PbNz0utdM5ILSxNZWBg4F5iXcLAAADD5w2KGgAAAA==
+    '36':
+      v: 2975
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"dark_red","text":":"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"U"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF1919","text":"l"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF3232","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF4B4B","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF6363","text":"m"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF7C7C","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9595","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAEAE","text":"e"},{"bold":true,"italic":false,"obfuscated":true,"color":"dark_red","text":":
+          "},{"bold":false,"italic":false,"obfuscated":false,"color":"gray","text":"Pickaxe"}],"text":""}'
+        enchants:
+          DIG_SPEED: 25
+        Unbreakable: true

@@ -1,0 +1,92 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Sonraki'
+    back: '&9Önceki'
+    nameformat: '&eLevel %level% &fHuni'
+    lore: '&bBu Huniyi Sakın Kaybetme!'
+  word:
+    disabled: KAPALI
+    enabled: AÇIK
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lBaktığın Özel Ve Güçlendirilmiş Bir Huni!|&7Huni Transfer Hızı &8» &6%amount%x&7.|&7&6%time% &7içinde Sona Eriyor.'
+    upgradewithxp: '&aTecrübe Puanı ile Seviye Yükselt'
+    upgradewithxplore: '&7&bSonraki Seviye için Gereken Level &8» &a%cost%'
+    upgradewitheconomy: '&aPara ile Seviye Yükselt'
+    upgradewitheconomylore: '&bSonraki Level için Gereken Para &8» &a$%cost%'
+    currentlevel: '&6Huni Seviyesi &8» &e%level%'
+    nextlevel: '&6Sonraki Huni Leveli &8» &e%level%'
+    range: '&6Huninin Bağlantı Menzili &8» &e%range%'
+    amount: '&6Huninin Miktarı &8» &e%amount%'
+    teleport: '&6Uzaktan Işınlayıcı &8» &e%enabled%'
+    filter: '&6Filtre &8» &e%enabled%'
+    crafting: '&6Otomatik Üret &8» &e%enabled%'
+    suction: '&6Emiş &8» &e%suction%'
+    autosell: '&6Oto Satış Süresi &8» Her &e%seconds% Saniyede'
+    linkamount: '&6Tick Başı Gönderilen Blok Sayısı &8» &E%amount%'
+    blockbreak: '&6Tick &8» &e%ticks%'
+    alreadymaxed: '&7Bu Huni Zaten Son Seviyede!'
+    synclore: '|&7Ilk Önce Buraya Tıkla Ve Daha Sonra Uzaktan Bağlamak|&7istediğin Sandık Veya Huniye 3 Defa Sol-Klik ile Tıkla!||&7Sağ Tıklıyarak Tüm Uzak Bağlantıları Iptal Edebilirsin.|&7Şuanki Bağlı Sandık Ve Huni Sayısı &8» &6%amount%'
+    perltitle: '&6Uzak Bağlantı Işınlayıcısı'
+    perllore2: '|&7Tıklıyarak Huninin Bağlı Olduğu Sandık Veya Huniye Git |&7En Son Bağladığın Sandık Veya Huniye Işınlar.||&7Eğer Önceki Bağladığın Sandık Veya Huniye Gitmek İçin Sağ-Klik|&7Işınlama Modu Aşağıda.|&7Şu Anki Işınlayıcı Ayarı &8» &a%type%&7.'
+    filtertitle: '&cEşya Ayırıcısı'
+    filterlore: '|&7Burada Huninin Toplamasını Istediğin Eşyaları Ayarlıyabilirsin|&7Açılan Menüdeki Yere Toplamasını Istediğin Eşyaları Koy'
+    craftingtitle: '&cOtomatik Üret'
+    craftinglore: '|&7Buraya Tıklıyarak Huniye Gelen Eşyaların Otomatik Üretilmesini Sağlayabilirsin|&7Içindeki Boşluğa Craftlayacağı Eşyayı Koy!|&7Otomatik Olarak Craftlayıp Sandığa Yollasın!'
+    selltitle: '&6Otomatik Satış'
+    selllore: '|&7Unutma Bu Huniler Bir Sandık Gibidir!|&7Hunideki Biriken Maden veya Satılabilir Olan Eşyaları Otomatik Olarak Satar|&7Eşya Satıldığında Verilecek Paranın Normal Sat ile Farkı Yoktur|&7Tıklayarak Otomatik Satışı Kapatabilirsin|&7Son Satış Için Kalan &8» &6%timeleft% Saniye'
+    blocktitle: '&6Blok Kırmayı Açmak için Tıkla'
+    blocklore: '|&7Blok Kırma %enabled% moduna ayarlandı.'
+    suctiontitle: '&6Emiş'
+    suctionlore: '&7Emişi açmak için sol tıkla |&7(&6%status%&7).||&7Etki alanını ayarlamak için sağ tıkla|&7(&6%radius%&7).'
+    synchopper: '&6Bu huniyi bağlamak için sol tıkla'
+    rejectsync: '&6Istenmeyen eşyaları bağlamak için tıkla'
+  filter:
+    infotitle: '&aFiltre Menüsü Ayarı'
+    infolore: '&7Beyaz Camların Olduğu Sütuna Yerleştirilen Ögeler|&7Beyaz Listededir!||&7Kırmızı Çizgilerin Olduğu Sütüna Yerleştirilen Ögeler|&7Huniye Geldiğinde Yok Edilir||&7Siyah Camların Olduğu Sütündaki Ögeler|&7Kara Listededir||&cBeyaz Listeye Koyduğunuz Eşyalar Dışında Başka Hiç Bir Eşya Huniden Geçmez!|&cKara Listeye Koyduğunuz Eşyalar Huniden Geçmez Diğer Tüm Eşyalar Geçer|&cDikkat Yok Ediciye Koyulan Eşyalar Huniye Geldiği Gibi Silinir Geri Dönüşü Yoktur!'
+    whitelist: '&f&lBeyaz Liste'
+    blacklist: '&8&lKara Liste'
+    void: '&c&lYok Edici'
+  autosell-filter:
+    infotitle: '&aFilter Guide'
+    infolore: '&7Eşyalar sol sütuna yerleştirildi|&7Otomatik satış için alan beyaz listeye eklenecek.||&7Eşyalar sağ sütuna yerleştirildi|&7Otomatik Satıştan kara listeye alınacak.'
+    whitelist: '&f&lBeyaz Liste'
+    blacklist: '&8&lKara Liste'
+# Command Messages
+command:
+  give:
+    success: '&6%level% Level Huni &7Başarıyla Verildi.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cBunu yapmak için yetkiniz yok.'
+  upgrade:
+    cannotafford: '&cBü Yükseltmeyi uygulamak için yeterli paran veya levelin yok!'
+    success: '&7Özel huninin yeni leveli &6%level% &7oldu tebrikler!'
+    maxed: '&7Yükselteceğin huni max levele ulaştı!'
+  inventory:
+    noroom: '&7Bunun için envanterinizde yeterli boşluk yok!'
+  hopper:
+    syncsuccess: '&aUzak Bağlantı Başarı ile Kuruldu'
+    syncsuccessmore: '&7Toplam &6%amount% &7adet uzak bağlantı hakkınız kaldı!'
+    desync: '&7Huninin tüm bağlantıları silindi!'
+    syncnext: '&7Huniyi bağlamak için huni veya sandığa Sol-Klik ile 3 defa tıklayın'
+    syncdone: '&aBu Huni Bağlantı Sınırına Ulaştı!'
+    already: '&cSeçtiğiniz Huni Zaten Buna Bağlı!'
+    synctimeout: '&cUzak Bağlantı Süresi Bitti.'
+    synccanceled: '&cBağlantı iptal edildi.'
+    syncstart: '&6%amount%&7 bağlantı yapılabilir. Bağlantı yapıldığında orjinal huniye tıkla.'
+    syncfinish: '&7Bağlantı tamamlandı.'
+    syncoutofrange: '&cSeçtiğiniz Huni veya sandık huninin menzili dışında!'
+    syncdidnotplace: '&cÜzgünüm bir şeyleri uzak bağlantı ile bağlamak için huninin kırılmaması gerekir!'
+    toomany: '&cChunk başına max &b%amount% Huni yerleştirebilirsiniz!'
+    walkteleenabled: Uzak Bağlantı ışınlayıcısı bu huni veya sandık için etkinleştirildi.
+    walkteledisabled: Uzak Bağlantı Işınlayıcısı bu huni veya sandık için devre dışı bırakıldı!
+    onlyone: '&cBir seferde yalnızca 1 adet eşya yerleştirebilirsiniz.'
+    syncchest: '&9%name% &7isimli sandık ile başarıyla bağlantı kuruldu!'
+    desyncchest: '&9%name% &7isimli sandığın uzak bağlantısı silindi!'
+    autosell: '&7Hunin &6%items% &7sattı toplam değeri &6$%amount%&7.'

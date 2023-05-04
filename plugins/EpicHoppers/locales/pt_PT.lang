@@ -1,0 +1,87 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Seguinte'
+    back: '&9Voltar'
+    nameformat: '&fFunil &eLevel %level%'
+    lore: ''
+  word:
+    disabled: desativado
+    enabled: ativado
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lAtualmente Impulsionado!|&7Taxa de transferência de item multiplicada por &6%amount%x&7.|&7Expira Em &6%time%&7.'
+    upgradewithxp: '&aAtualizar Com EXP'
+    upgradewithxplore: '&7Custo: &a%cost% Levels'
+    upgradewitheconomy: '&aAtualizar Com Economia'
+    upgradewitheconomylore: '&7Custo: &a$%cost%'
+    currentlevel: '&6Funil Level &7%level%'
+    nextlevel: '&6Proximo Level: &7%level%'
+    range: '&7Alcance: &6%range%'
+    amount: '&7Quantia: &6%amount%'
+    teleport: '&7Teleporte: &6%enabled%'
+    filter: '&7Filtro: &6%enabled%'
+    crafting: '&7AutoCraft: &6%enabled%'
+    suction: '&7Succao: &6%suction%'
+    autosell: '&7AutoSell: Cada &6%seconds%s'
+    linkamount: '&7Quantia De Links: &6%amount%'
+    blockbreak: '&7Quebramento De Bloco: &6A Cada %ticks% ticks'
+    alreadymaxed: '&7Este Funil Ja Esta Maximizado!'
+    synclore: '|&7Clique Esquerdo E Clique Noutro!|&7Funil Ou Bau Para Linkar!||&7Clique Direito Para Deslinkar|&7Atualmente Linkado Com &6%amount% Conteiner(s)&7.'
+    perltitle: '&6Clique Para Teleportar'
+    perllore2: '|&7Clique Esquerdo Para Teleportar Para|&7O Fim Da Cadeia||&7Clique Direito Para Defenir|&7O Gatilho De Teleportar.|&7Atualmente Defenido Para: &a%type%&7.'
+    filtertitle: '&cClique Para Filtrar'
+    filterlore: '|&7Isto Deixa Voce Escolher|&7Quer Itens Vao Onde.'
+    craftingtitle: '&cClique Para Defenir AutoCraft'
+    craftinglore: '|&7Isto Deixa Voce Escolher|&7Que Itens Este Funil|&7Vai Automaticamente Craftar.'
+    selltitle: '&6Clique Esquerdo Para Defenir O Auto Vendedor'
+    selllore: '&6Clique Direito Para Defenenir Notificacoes De||&7Venda Em &6%timeleft%s&7.|&7Notificacoes: &6%state%&7.'
+    blocktitle: '&6Clique Para Defenir Quebramento De Blocos'
+    blocklore: '|&7Quebramento De Blocos Esta Defenido Para: &6%enabled%&7.'
+    suctiontitle: '&6Succao'
+    suctionlore: '|&7Clique Esquerdo Para Defenir Succao|&7(&6%status%&7).||&7Clique Direito Para Defenir O Raio |&7(&6%radius%&7).'
+    synchopper: '&6Clique Para Linkar Este Funil'
+    rejectsync: '&6Clique Para Linkar Itens Rejeitados'
+  filter:
+    infotitle: '&aGuia Do Filtro'
+    infolore: '&7Itens Colocados Na Coluna Mais A Esquerda|&7Estarao Na WhiteList||&7Itens Colocados Na Coluna Mais A Direita|&7Vao Ser Dropados No Void||&7Itens Colocados Na Lista Do Meio|&7Serao BlackListed!'
+    whitelist: '&f&lWhiteList'
+    blacklist: '&8&lBlackList'
+    void: '&c&lVoid'
+# Command Messages
+command:
+  give:
+    success: '&7Foi Dado A Voce Um Funil &6level %level%&7.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cVoce Nao Tem Permissao Para Isso!'
+  upgrade:
+    cannotafford: '&cVoce Nao Consegue Comprar Esta Atualizacao'
+    success: '&7Voce Corretamente Atualizou Este Funil Para &6level %level%&7!'
+    maxed: '&7Voce Maximizou Este Funil No &6level %level%&7.'
+  inventory:
+    noroom: '&7Voce Nao Tem Espaço No Inventario Para Isto!'
+  hopper:
+    syncsuccess: '&aLinkado Com Sucesso!'
+    syncsuccessmore: '&7Voce Tem Mais &6%amount% &7Link(s) Restantes.'
+    desync: '&7Voce Deslinkou Este Hopper.'
+    syncnext: '&7Clique Noutro Funil Ou Num Container Para Linkar!'
+    syncdone: '&aVoce Alcançou O Limite De Links.'
+    already: '&cEste Funil Ja Esta Linkado.'
+    synctimeout: '&cLinkamento Expirou!!'
+    synccanceled: '&cLinkamento Cancelado!'
+    syncstart: '&7Voce Tem &6%amount% &7Links Restantes! Quando Terminado Clique No Funil Original.'
+    syncfinish: '&7Linkamento Completo.'
+    syncoutofrange: '&cEste Bloco Esta Fora Da Distancia Do Seu Hopper!'
+    syncdidnotplace: '&cDesculpe! Voce Precisa De Colocar Este Funil Para Linkar Ele!'
+    toomany: '&cVoce So Pode Colocar %amount% Funis Por Chunk!'
+    walkteleenabled: O Teleporte Foi Ativado Para Este Funil!
+    walkteledisabled: Andamento Neste Funil Para Teleportar Esta Desativado!
+    onlyone: '&cVocê só pode colocar um único item de cada vez'
+    syncchest: '&7Voce Linkou Seu &9%name% &7Com Este Bau!'
+    desyncchest: '&7Voce Deslinkou Seu &9%name% &7Com Este Bau!'
+    autosell: '&7O Seu Funil Vendeu &6%items% &7Item(ns) No Valor De &6$%amount%&7.'

@@ -1,0 +1,92 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Volgende'
+    back: '&9Terug'
+    nameformat: '&eLevel %level% &fHopper'
+    lore: ''
+  word:
+    disabled: UITGESCHAKELD
+    enabled: INGESCHAKELD
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lOp dit moment geboost!|&7Item overdrachtssnelheid vermenigvuldigd met &6%amount%x&7.|&7Verloopt over &6%time%&7.'
+    upgradewithxp: '&aUpgrade met XP'
+    upgradewithxplore: '&7Kost: &a%cost% Levels'
+    upgradewitheconomy: '&aUpgrade met ECO'
+    upgradewitheconomylore: '&7Kost: &a$%cost%'
+    currentlevel: '&6Hopper Level &7%level%'
+    nextlevel: '&6Volgende Level &7%level%'
+    range: '&7Bereik: &6%range%'
+    amount: '&7Aantal: &6%amount%'
+    teleport: '&7Teleportatie: &6%enabled%'
+    filter: '&7Filter: &6%enabled%'
+    crafting: '&7AutoCrafting: &6%enabled%'
+    suction: '&7Suction: &6%suction%'
+    autosell: '&7AutoSell: Elke &6%seconds%s'
+    linkamount: '&7Link Overflow: &6%amount%'
+    blockbreak: '&7Blok Breker: &6Elke %ticks% ticks'
+    alreadymaxed: '&7Deze hopper heeft het maximale level al bereikt!'
+    synclore: '|&7Klik links en klik daarna een andere|&7hopper of kist om ze te koppelen!||&7Klik rechts om te ontkoppelen.|&7Op dit moment aan &6%amount% container(s)&7 gekoppeld.'
+    perltitle: '&6Klik om te teleporteren'
+    perllore2: '|&7Klik links om te teleporteren naar|&7het einde van de keten.||&7Klik rechts om de|&7teleportatie trigger modus te veranderen.|&7Op dit moment ingesteld op: &a%type%&7.'
+    filtertitle: '&cKlik om te filteren'
+    filterlore: '|&7Dit staat je toe om te kiezen|&7welke items waarnaartoe gaan.'
+    craftingtitle: '&cKlik om AutoCrafting in te stellen'
+    craftinglore: '|&7Dit staat je toe om te kiezen|&7welke items deze hopper|&7automatisch zal craften.'
+    selltitle: '&6Klik links om AutoSell aan of uit te schakelen'
+    selllore: '&6Klik rechts om notificaties aan of uit te schakelen||&7Verkoopt over &6%timeleft%s&7.|&7Notificaties: &6%state%&7.'
+    blocktitle: '&6Klik om de Blok Breker aan/uit te zetten'
+    blocklore: '|&7Blok Breker is op dit moment &6%enabled%&7.'
+    suctiontitle: '&6Suction'
+    suctionlore: '|&7Klik links om suction aan/uit te zetten |&7(&6%status%&7).||&7Klik rechts om de radius aan te passen |&7(&6%radius%&7).'
+    synchopper: '&6Klik om deze hopper te koppelen'
+    rejectsync: '&6Klik om afgewezen items te koppelen'
+  filter:
+    infotitle: '&aFilter Uitleg'
+    infolore: '&7Items die in de meest linkse kolom geplaatst zijn,|&7worden op de whitelist geplaatst.||&7Items die in de meest rechter kolom geplaatst zijn,|&7worden vernietigd.||&7Items die in de middelste kolom geplaatst zijn,|&7worden op de blacklist geplaatst.'
+    whitelist: '&f&lWhitelist'
+    blacklist: '&8&lBlacklist'
+    void: '&c&lVernietiging'
+  autosell-filter:
+    infotitle: '&aFilter Uitleg'
+    infolore: '&7Items die in de meest linkse kolom geplaatst zijn,|&7worden op de whitelist geplaatst voor automatisch verkopen.||&7Items die in de rechter kolom geplaatst zijn,|&7worden op de blacklist geplaatst voor automatisch verkopen.'
+    whitelist: '&f&lWhitelist'
+    blacklist: '&8&lBlacklist'
+# Command Messages
+command:
+  give:
+    success: '&7Je hebt een &6level %level% &7Hopper ontvangen.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cJe hebt geen toestemming om dat te doen.'
+  upgrade:
+    cannotafford: '&cJe kunt deze upgrade niet betalen.'
+    success: '&7Je hebt met succes de hopper geupgrade naar &6level %level%&7!'
+    maxed: '&7Je hebt de hopper geupgrade naar het maximale level: &6level %level%&7.'
+  inventory:
+    noroom: '&7Je hebt niet genoeg ruimte in je inventaris hiervoor.'
+  hopper:
+    syncsuccess: '&aKoppeling Succesvol.'
+    syncsuccessmore: '&7Je hebt nog &6%amount% &7koppeling(en) over.'
+    desync: '&7Je hebt deze hopper ontkoppeld.'
+    syncnext: '&7Klik op een andere hopper of container om te koppelen.'
+    syncdone: '&aJe hebt geen koppelingen meer over.'
+    already: '&cDeze hopper is al gekoppeld.'
+    synctimeout: '&cKoppeltijd is verstreken.'
+    synccanceled: '&cKoppeling geannuleerd.'
+    syncstart: '&7Je hebt &6%amount% &7koppelingen over. Klik de originele hopper wanneer je klaar bent.'
+    syncfinish: '&7Koppeling voltooid.'
+    syncoutofrange: '&cDit blok is buiten het bereik van je hopper.'
+    syncdidnotplace: '&cSorry! Je moet deze hopper plaatsen om het te kunnen koppelen.'
+    toomany: '&cJe mag maar %amount% hoppers per chunk plaatsen...'
+    walkteleenabled: Teleportatie is ingeschakeld voor deze hopper.
+    walkteledisabled: Loop over hopper om te teleporteren is uitgeschakeld voor deze hopper.
+    onlyone: '&cJe mag maar een item per keer plaatsen.'
+    syncchest: '&7Je hebt je &9%name% &7gekoppeld aan deze kist.'
+    desyncchest: '&7Je hebt je &9%name% &7ontkoppeld van deze kist.'
+    autosell: '&7Je hopper heeft &6%items% &7item(s) verkocht, waarde: &6$%amount%&7.'

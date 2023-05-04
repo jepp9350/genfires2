@@ -1,0 +1,289 @@
+CRecipes:
+  '0':
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: FERMENTED_SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"THIS
+          ITEM CAN''T BE CREATED"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Creation
+          of this item has been blocked."}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Please
+          look in the shop to obtain this item."}],"text":""}'
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+      3:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+      4:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: CHEST
+      6:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+      8:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+  '1':
+    Type: Shapeless
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: FERMENTED_SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"THIS
+          ITEM CAN''T BE CREATED"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Creation
+          of this item has been blocked."}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Please
+          look in the shop to obtain this item."}],"text":""}'
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: STRING
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HONEYCOMB
+  '2':
+    Type: Shapeless
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: FERMENTED_SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"THIS
+          ITEM CAN''T BE CREATED"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Creation
+          of this item has been blocked."}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Please
+          look in the shop to obtain this item."}],"text":""}'
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+      3:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+      4:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: IRON_INGOT
+  '3':
+    Type: Shapeless
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: FERMENTED_SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"THIS
+          ITEM CAN''T BE CREATED"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Creation
+          of this item has been blocked."}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Please
+          look in the shop to obtain this item."}],"text":""}'
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: DARK_OAK_PLANKS
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: DARK_OAK_PLANKS
+      3:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: DARK_OAK_PLANKS
+      4:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: DARK_OAK_PLANKS
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: DARK_OAK_PLANKS
+  '4':
+    Type: Shapeless
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: FERMENTED_SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"THIS
+          ITEM CAN''T BE CREATED"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Creation
+          of this item has been blocked."}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Please
+          look in the shop to obtain this item."}],"text":""}'
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: ACACIA_PLANKS
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: ACACIA_PLANKS
+      3:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: ACACIA_PLANKS
+      4:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: ACACIA_PLANKS
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: ACACIA_PLANKS
+  '5':
+    Type: Shapeless
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: FERMENTED_SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"THIS
+          ITEM CAN''T BE CREATED"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Creation
+          of this item has been blocked."}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Please
+          look in the shop to obtain this item."}],"text":""}'
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BIRCH_PLANKS
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BIRCH_PLANKS
+      3:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BIRCH_PLANKS
+      4:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BIRCH_PLANKS
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BIRCH_PLANKS
+  '6':
+    Type: Shapeless
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: FERMENTED_SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"THIS
+          ITEM CAN''T BE CREATED"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Creation
+          of this item has been blocked."}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Please
+          look in the shop to obtain this item."}],"text":""}'
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: OAK_PLANKS
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: OAK_PLANKS
+      3:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: OAK_PLANKS
+      4:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: OAK_PLANKS
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: OAK_PLANKS
+  '7':
+    Type: Shapeless
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: FERMENTED_SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"THIS
+          ITEM CAN''T BE CREATED"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Creation
+          of this item has been blocked."}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Please
+          look in the shop to obtain this item."}],"text":""}'
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: SPRUCE_PLANKS
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: SPRUCE_PLANKS
+      3:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: SPRUCE_PLANKS
+      4:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: SPRUCE_PLANKS
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: SPRUCE_PLANKS

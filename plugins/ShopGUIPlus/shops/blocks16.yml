@@ -1,0 +1,416 @@
+  blocks16:
+    name: "&8&nBlocks 1.16 [page %page%/3]"
+    buttons:
+      goBack:
+        slot: 49
+      previousPage:
+        slot: 48
+      nextPage:
+        slot: 50
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: ""  
+    items:
+       1:
+        type: item
+        item:
+          material: dead_tube_coral_block
+          quantity: 1
+        buyPrice: 218.75
+        sellPrice: -1
+        slot: 10       
+       2:
+        type: item      
+        item:
+          material: dead_brain_coral_block   
+          quantity: 1
+        buyPrice: 218.75
+        sellPrice: -1
+        slot: 11
+       3:
+        type: item      
+        item:
+          material: dead_bubble_coral_block  
+          quantity: 1
+        buyPrice: 218.75
+        sellPrice: -1
+        slot: 12
+       4:
+        type: item      
+        item:
+          material: dead_fire_coral_block    
+          quantity: 1
+        buyPrice: 218.75
+        sellPrice: -1
+        slot: 13
+       5:
+        type: item      
+        item:
+          material: dead_horn_coral_block    
+          quantity: 1
+        buyPrice: 218.75
+        sellPrice: -1
+        slot: 14
+       6:
+        type: item      
+        item:
+          material: tube_coral_block     
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 15
+       7:
+        type: item      
+        item:
+          material: brain_coral_block    
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 16
+       8:
+        type: item      
+        item:
+          material: bubble_coral_block   
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 19
+       9:
+        type: item      
+        item:
+          material: fire_coral_block    
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 20
+       10:
+        type: item      
+        item:
+          material: horn_coral_block 
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 21
+       11:
+        type: item      
+        item:
+          material: dried_kelp_block    
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 22
+       12:
+        type: item      
+        item:
+          material: chorus_plant   
+          quantity: 1
+        buyPrice: 93.75
+        sellPrice: -1
+        slot: 23
+       13:
+        type: item      
+        item:
+          material: chorus_flower    
+          quantity: 1
+        buyPrice: 93.75
+        sellPrice: -1
+        slot: 24
+       14:
+        type: item      
+        item:
+          material: farmland     
+          quantity: 1
+        buyPrice: 31.25
+        sellPrice: -1
+        slot: 25
+       15:
+        type: item      
+        item:
+          material: red_mushroom_block   
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 28
+       16:
+        type: item      
+        item:
+          material: brown_mushroom_block     
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 29
+       34:
+        type: item      
+        item:
+          material: tube_coral    
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 15
+        page: 2
+       35:
+        type: item      
+        item:
+          material: tube_coral_fan    
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 16
+        page: 2
+       36:
+        type: item      
+        item:
+          material: brain_coral    
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 19
+        page: 2
+       37:
+        type: item      
+        item:
+          material: brain_coral_fan    
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 20
+        page: 2
+       38:
+        type: item      
+        item:
+          material: bubble_coral  
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 21
+        page: 2
+       39:
+        type: item      
+        item:
+          material: bubble_coral_fan     
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 22
+        page: 2
+       40:
+        type: item      
+        item:
+          material: fire_coral    
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 23
+        page: 2
+       41:
+        type: item      
+        item:
+          material: fire_coral_fan    
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 24
+        page: 2
+       42:
+        type: item      
+        item:
+          material: horn_coral     
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 25
+        page: 2
+       43:
+        type: item      
+        item:
+          material: horn_coral_fan      
+          quantity: 1
+        buyPrice: 62.5
+        sellPrice: -1
+        slot: 28
+        page: 2
+       44:
+        type: item      
+        item:
+          material: chain    
+          quantity: 1
+        buyPrice: 125
+        sellPrice: -1
+        slot: 29
+        page: 2
+       45:
+        type: item      
+        item:
+          material: scaffolding    
+          quantity: 1
+        buyPrice: 125
+        sellPrice: -1
+        slot: 30
+        page: 2
+       46:
+        type: item      
+        item:
+          material: barrel   
+          quantity: 1
+        buyPrice: 225
+        sellPrice: -1
+        slot: 31
+        page: 2
+       47:
+        type: item      
+        item:
+          material: loom    
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 32
+        page: 2
+       48:
+        type: item      
+        item:
+          material: smoker   
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 33
+        page: 2
+       49:
+        type: item      
+        item:
+          material: blast_furnace     
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: -1
+        slot: 34
+        page: 2
+       50:
+        type: item      
+        item:
+          material: cartography_table      
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: -1
+        slot: 37
+        page: 2
+       51:
+        type: item      
+        item:
+          material: fletching_table      
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: -1
+        slot: 38
+        page: 2
+       52:
+        type: item      
+        item:
+          material: grindstone     
+          quantity: 1
+        buyPrice: 4000
+        sellPrice: -1
+        slot: 39
+        page: 2
+       53:
+        type: item      
+        item:
+          material: smithing_table     
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: -1
+        slot: 40
+        page: 2
+       54:
+        type: item      
+        item:
+          material: lantern  
+          quantity: 1
+        buyPrice: 125
+        sellPrice: -1
+        slot: 41
+        page: 2
+       55:
+        type: item      
+        item:
+          material: Bell  
+          quantity: 1
+        buyPrice: 400
+        sellPrice: -1
+        slot: 42
+        page: 2
+       56:
+        type: item      
+        item:
+          material: Campfire  
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 43
+        page: 2
+       62:
+        type: item      
+        item:
+          material: SOUL_TORCH  
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 15
+        page: 3
+       63:
+        type: item      
+        item:
+          material: SOUL_LANTERN
+          quantity: 1
+        buyPrice: 175
+        sellPrice: -1
+        slot: 16
+        page: 3
+       64:
+        type: item      
+        item:
+          material: SOUL_CAMPFIRE
+          quantity: 1
+        buyPrice: 1500
+        sellPrice: -1
+        slot: 19
+        page: 3        
+       67:
+        type: item      
+        item:
+          material: LODESTONE
+          quantity: 1
+        buyPrice: 2000
+        sellPrice: -1
+        slot: 22
+        page: 3
+       68:
+        type: item      
+        item:
+          material: RESPAWN_ANCHOR
+          quantity: 1
+        buyPrice: 5000
+        sellPrice: -1
+        slot: 23
+        page: 3
+       69:
+        type: item      
+        item:
+          material: CHAIN
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 24
+        page: 3
+       70:
+        type: special
+        special: balance
+        slot: 53
+       71:
+        type: special
+        special: balance
+        slot: 53
+        page: 2
+       72:
+        type: special
+        special: balance
+        slot: 53
+        page: 3                                                

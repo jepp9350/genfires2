@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: falling_dripstone_lava
+effect-name: falling_dripstone_lava
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [SMOOTH_BASALT]
+gui-icon-material:
+  - SMOOTH_BASALT

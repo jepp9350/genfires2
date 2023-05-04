@@ -1,0 +1,212 @@
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
+header-footer:
+  enabled: true
+  disable-in-worlds:
+  - disabledworld
+  header:
+  - '&8&l- - - Gen&6&lFire - - -'
+  - '&7Online players: &f%online%'
+  - '%animation:headerFooterAni%'
+  footer:
+  - '%animation:headerFooterAni%'
+  - '&7Money: &a%denizen_<server.economy.format[<player.money.round_up>]>% &7Rank:
+    &f%cmi_user_prefix%'
+  - '&6Genfire.minehut.gg'
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+tablist-name-formatting:
+  enabled: true
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,ultimate,token,emerald,diamond,gold,iron,coal,beta,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: false
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: 0.22
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+  can-see-friendly-invisibles: false
+yellow-number-in-tablist:
+  enabled: true
+  value: '%ping%'
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: '&cHealth'
+  disable-in-worlds:
+  - disabledworld
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  disable-in-worlds:
+  - disabledworld
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    admin:
+      display-condition: permission:tab.scoreboard.admin
+      title: Admin scoreboard
+      lines:
+      - '&6Online:'
+      - '&7» &eOnline&7: &f%online%&7/&4%server_max_players%'
+      - '&7» &eStaff&7: &f%staffonline%'
+      - '&7» &eRank&7: &f%cmi_user_prefix%'
+      - ' '
+      - '&6Server Info:'
+      - '&7» &bTPS&7: %cmi_tps_60%'
+      - '&7» &bUptime&7: &f%server_uptime%'
+      - '&7» &bMemory&7: &f%memory-used%&7/&4%memory-max%'
+    scoreboard1:
+      display-condition: permission:tab.scoreboard.default
+      title: '&8&l- - - Gen&6&lFire - - -'
+      lines:
+      - '&6My Stats:'
+      - '&7» &eGenerators&7: &7%denizen_<player.flag[generators.money].size||0>%&8/%denizen_<player.flag[maxgenerators]||25>%'
+      - '&7» &eToken Gens&7: &7%denizen_<player.flag[generators.token].size||0>%&8/%denizen_<player.flag[token_maxgenerators]||4>%'
+      - '&7» &eMoney&7: &a%denizen_<server.economy.format[<player.money.round_up>]>%'
+      - '&7» &eTokens&7: &b⛁%denizen_<player.flag[tokens]||0>%'
+      - ' '
+      - '&6Personal Info:'
+      - '&7» &bRank&7: &f%cmi_user_prefix%'
+      - '&7» &bPrestige&7: &f%denizen_<player.flag[prestige]||0>%'
+      - '&7» &bPersonal Multiplier&7: &f%denizen_<player.flag[personal_multiplier]||1.00>%'
+      - ' '
+      - '&6Global sell wands:'
+      - '&7» &bGlobal Multiplier&7: &f%denizen_<server.flag[global_multiplier]||1.00>%'
+    scoreboardIsland:
+      display-condition: permission:tab.scoreboard.island
+      title: '&8&l- - - Gen&6&lFire - - -'
+      lines:
+      - '&6My Stats:'
+      - '&7» &eMoney&7: &a%denizen_<server.economy.format[<player.money.round_up>]>%'
+      - '&7» &eTokens&7: &b⛁%denizen_<player.flag[tokens]||0>%'
+      - ' '
+      - '&6Island stats:'
+      - '&7» &eLevel&7: &7%denizen_<proc[get_island_stats].context[level]>%'
+      - '&7» &eGenerators&7: &7%denizen_<proc[get_island_stats].context[money]>%'
+      - '&7» &eToken Gens&7: &7%denizen_<proc[get_island_stats].context[token]>%'
+      - ' '
+      - '&6Personal Info:'
+      - '&7» &bRank&7: &f%cmi_user_prefix%'
+      - '&7» &bPersonal Multiplier&7: &f%denizen_<player.flag[personal_multiplier]||1.00>%'
+      - ' '
+      - '&6GenFire S3 v. 1.0.0b'
+ping-spoof:
+  enabled: false
+  value: 0
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%afk%':
+    true: ' &o[AFK]&r'
+    false: ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+    '%server_unique_joins%': 5000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+    '%denizen_<proc[get_island_generator_stats].context[money]>%': 1000
+    '%denizen_<proc[get_island_generator_stats].context[token]>%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+global-playerlist:
+  enabled: false

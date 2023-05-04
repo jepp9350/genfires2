@@ -1,0 +1,87 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Nächste'
+    back: '&9Zurück'
+    nameformat: '&eLevel %level% &fTrichter'
+    lore: ''
+  word:
+    disabled: DEAKTIVIERT
+    enabled: AKTIVIERT
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lAktuell verstärkt!|&7Gegenstandstransferrate multipliziert mit &6%amount%x&7.|&7Endet in &6%time%&7.'
+    upgradewithxp: '&aVerbessern mit XP'
+    upgradewithxplore: '&7Kosten: &a%cost% Level'
+    upgradewitheconomy: '&aVerbessern mit Geld'
+    upgradewitheconomylore: '&7Kosten: &a$%cost%'
+    currentlevel: '&6Trichterlevel &7%level%'
+    nextlevel: Nächstes Level &7%level%
+    range: '&7Reichweite: &6%range%'
+    amount: '&7Anzahlt: &6%amount%'
+    teleport: '&7Teleport: &6%enabled%'
+    filter: '&7Filter: &6%enabled%'
+    crafting: '&7AutoHerstellung: &6%enabled%'
+    suction: '&7Saugwirkung: &6%suction%'
+    autosell: '&7Automatischer Verkauf: Alle &6%seconds%s'
+    linkamount: '&7Verfügbare Links: &6%amount%'
+    blockbreak: '&7Blockzerstörung: &6Alle %ticks% Ticks'
+    alreadymaxed: '&7Dieser Trichter ist schon vollständig verbessert!'
+    synclore: '|&7Klicke mit der linken Maustaste und klicke dann auf einen anderen|&7Trichter oder Truhe, um diese zu verlinken!||&7Klicke die rechte Maustaste, um diese zu entlinken.|&7Aktuell mit &6%amount% Trichter(n) &7verbunden.'
+    perltitle: '&6Klicke, um dich zu teleportieren'
+    perllore2: '|&7Klicke mit der linken Maustaste, um dich zum Ende|&7der Kette zu teleportieren.||&7Klicke mit der rechten Maustaste, um |&7den Teleportauslösungsmodus zu wechseln.|&7Zurzeit: &a%type%&7.'
+    filtertitle: '&cKlicke zum Filtern'
+    filterlore: '|&7Dies erlaubt dir zu wählen|&7wo die Gegenstände hingehen.'
+    craftingtitle: '&cKlicke hier, um das AutoHerstellen einzurichten'
+    craftinglore: '|&7Dies erlaubt dir zu wählen|&7welchen Gegenstand|&7dieser Trichter herstellen soll.'
+    selltitle: '&6Klicke hier, um den AutoVerkauf einzurichten'
+    selllore: '|&7Verkaufe in &6%timeleft%s&7.'
+    blocktitle: '&6Klicke, um BlockBrecher umzuschalten.'
+    blocklore: '|&7BlockBrecher ist &6%enabled%&7.'
+    suctiontitle: '&6Sog'
+    suctionlore: '|&7Linksklicke, um den Sog umzuschalten. |&7(&6%status%&7).||&7Rechtsklicke, um den Radius festzulegen. |&7(&6%radius%&7).'
+    synchopper: '&6Klicke hier, um diesen Trichter zu verlinken'
+    rejectsync: '&6Klicke hier, um die abgelehnten Gegenstände zu verlinken'
+  filter:
+    infotitle: '&aFilteranleitung'
+    infolore: '&7Gegenstände, die oben links platziert|&7werden werden auf die Whitelist gesetzt.||&7Gegenstände, rechts platziert werden|&7werden ins Nichts geleitet.||&7Gegenstände, die unten links platziert|&7werden werden auf die Blacklist gesetzt.||&cDie Verwendung der Whitelist deaktiviert|&csowohl die Blacklist, als auch die Leere.'
+    whitelist: '&f&lWhitelist'
+    blacklist: '&8&lBlacklist'
+    void: '&c&lLeere'
+# Command Messages
+command:
+  give:
+    success: '&7Dir wurde ein &6Level %level% &7Trichter gegeben.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDafür hast du keine Berechtigung.'
+  upgrade:
+    cannotafford: '&cDu kannst dir dies nicht leisten.'
+    success: '&7Du hast erfolgreich den Trichter auf &6Level %level%&7 verbessert!'
+    maxed: '&7Du hast den Trichter auf das höchste Level verbessert. &6Level %level%&7.'
+  inventory:
+    noroom: '&7Du hast dafür keinen Platz in deinem Inventar.'
+  hopper:
+    syncsuccess: '&aLink erfolgreich.'
+    syncsuccessmore: '&7Du hast &6%amount% &7Link(s) übrig.'
+    desync: '&7Du hast diesen Trichter entlinkt.'
+    syncnext: '&7Klicke zum Verlinken auf einen anderen Trichter oder Behälter.'
+    syncdone: '&aDu hast die maximale Anzahl an Links verwendet.'
+    already: '&cDieser Trichter ist bereits verlinkt.'
+    synccanceled: '&cVerlinkung abgebrochen.'
+    syncstart: '&7Du hast &6%amount% &7Links verfügbar. Wenn du fertig bist, klicke den ursprünglichen Trichter an..'
+    syncfinish: '&7Verlinkung abgeschlossen.'
+    synctimeout: '&cZeitüberschreitung beim Verlinken.'
+    syncoutofrange: '&cDieser Block befindet sich außerhalb der Reichweite deines Trichters.'
+    syncdidnotplace: '&cSorry! Du musst diesen Trichter platziert haben, um Dinge mit ihm zu verlinken.'
+    toomany: '&cDu kannst nur %amount% Trichter in einem Chunk setzten...'
+    walkteleenabled: Der Teleport wurde für diesen Trichter aktiviert.
+    walkteledisabled: Das Teleportieren beim Drüberlaufen wurde für diesen Trichter deaktiviert.
+    onlyone: '&cDu kannst nur einen Gegenstand auf einmal platzieren.'
+    syncchest: '&7Du hast &9%name% &7mit dieser Truhe verlinkt.'
+    desyncchest: '&7Du hast &9%name% &7von dieser Truhe entlinkt.'
+    autosell: '&7Dein Trichter hat &6%items% &7Item(s) mit einem Wert von &6$%amount%&7 verkauft.'

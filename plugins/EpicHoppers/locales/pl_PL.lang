@@ -1,0 +1,92 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&7[&6EpicHoppers&7]'
+    next: '&9Kolejny'
+    back: '&9Powrót'
+    nameformat: '&ePoziom %level% &fHoppera'
+    lore: ''
+  word:
+    disabled: WYLACZONE
+    enabled: WLACZONE
+# Interface Messages
+interface:
+  hopper:
+    boostedstats: '&a&lObecnie wzmocniony!|&7Szybkość transferu przedmiotów pomnożona przez &6%amount%x&7.|&7Wygasa za &6%time%&7.'
+    upgradewithxp: '&Ulepsz za pomocą XP'
+    upgradewithxplore: '&7Koszt: &a%cost% poziomow'
+    upgradewitheconomy: '&Ulepsz za gotowke'
+    upgradewitheconomylore: '&7Koszt: &a$%cost%'
+    currentlevel: '&6Poziom Hoppera &7%level%'
+    nextlevel: '&6Następny poziom &7%level%'
+    range: '&7Zasięg: &6%range%'
+    amount: '&7Ilość: &6%amount%'
+    teleport: '&7Teleport: &6%enabled%'
+    filter: '&7Filtr: &6%enabled%'
+    crafting: '&7Automatyczne Craftowanie: &6%enabled%'
+    suction: '&7Ssanie: &6%suction%'
+    autosell: '&7Automatyczne sprzedawanie: Co &6%seconds%s'
+    linkamount: '&7Przepelnienie Lacza: &6%amount%'
+    blockbreak: '&7Złamanie blocku: &6Co %ticks% tyk'
+    alreadymaxed: '&7Ten zbiornik jest już w stanie maksymalnym!'
+    synclore: '|&7Kliknij lewym przyciskiem myszy, a następnie kliknij inny|&7hopper lub skrzynie do zsynchronizowania!||&7Kliknij prawym przyciskiem myszy, aby usunąć zsynchronizować.'
+    perltitle: '&6Kliknij, aby teleportować'
+    perllore2: '|&7Kliknij lewym przyciskiem, aby się teleportować do|&7końca łańcucha.||&7Kliknij prawym przyciskiem myszy, aby przełączyć|&7tryb wyzwalania teleportacji.|&7Obecnie ustawione na: &a%type%&7.'
+    filtertitle: '&cKliknij, aby przefiltrować'
+    filterlore: '|&7To pozwala ci wybrać|&7które elementy idą gdzie.'
+    craftingtitle: '&cKliknij, aby skonfigurować Automatyczne Craftowanie'
+    craftinglore: '|&7To pozwala ci wybrać|&7który element ten hopper|&7automatycznie utworzy.'
+    selltitle: '&6Klinknij aby wlaczyc automatyczne sprzedawanie.'
+    selllore: '|&7Sprzedawanie za &6%timeleft%s&7.'
+    blocktitle: '&6Kliknij by przełączyć niszczenie bloków'
+    blocklore: '&6Niszczenie bloków jest &6%enabled%&7.'
+    suctiontitle: '&6Pobieranie'
+    sucstionlore: '|&7Kliknij lewym przyciskiem by przełączyć pobieranie przedmiotów |&7(&6%status%&7).||&7Kliknij prawym przyciskiem by ustawić zasięg |&7(&6%radius%&7).'
+    synchopper: '&6Kliknij, aby zsynchronizować ten hopper'
+    rejectsync: '&6Kliknij, aby Synchronizować odrzucone elementy'
+  filter:
+    infotitle: '&aPrzewodnik do filtrach'
+    infolore: '&7Przedmioty umieszczone w lewym górnym rogu|&7zostana dodana do białej listy.||&7Przedmioty umieszczone po prawej stronie|&7będzie nieważny.||&7Przedmioty umieszczone w lewym dolnym rogu|&7będzie na czarnej liście.||&cKorzystanie z białej listy spowoduje wyłączenie|&cczarnej listy i z listy nieważnych przedmiotów.'
+    whitelist: '&f&lBiała lista'
+    blacklist: '&8&lCzarna lista'
+    void: '&c&lUnieważnić'
+  autosell-filter:
+    infotitle: '&aPrzewodnik do filtrach'
+    infolore: '&7Przedmioty umieszczone w lewej kolumnie |&7przestrzeń będzie traktowana jako biała lista w automatycznym sprzedawaniu.||&7Przedmioty umieszczone w prawej kolumnie|&7zostaną dodane do czarnej listy automatycznego sprzedawania.'
+    whitelist: '&f&lBiała lista'
+    blacklist: '&8&lCzarna lista'
+# Command Messages
+command:
+  give:
+    success: '&7Dostałeś &6poziom %level% &7Hopper.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cNie masz na to pozwolenia.'
+  upgrade:
+    cannotafford: '&cNie stać cie na to ulepszenie.'
+    success: '&7Pomyślnie zaktualizowano ten hopper do &6poziomu %level%&7!'
+    maxed: '&7Wymaksowales ten hopper na &6poziom %level%&7.'
+  inventory:
+    noroom: '&7Nie masz na to miejsca.'
+  hopper:
+    syncsuccess: '&aSukces synchronizacji.'
+    syncsuccessmore: '&7Posiadasz jeszcze &6%amount% &7do polaczenia'
+    desync: '&7Usunąłeś synchronizację tego hoppera.'
+    syncnext: '&7Kliknij inny hopper lub pojemnik, aby zsynchronizować.'
+    syncdone: '&aOsiągnąłeś maksymalną ilość podłączeń dla tego hoppera.'
+    already: '&cTen hopper jest już podłączony.'
+    synctimeout: '&cSynchronizacja została przekroczona.'
+    synccanceled: '&cPodłączanie anulowane.'
+    syncstart: '&7Pozostało Tobie jeszcze &6%amount% &7możliwych podłączeń. Po podłączaniu kliknij na hopper by zakończyć podłączanie.'
+    syncfinish: '&7Podłączanie zakończone.'
+    syncoutofrange: '&cTen blok jest poza zasięgiem waszych hopperów.'
+    syncdidnotplace: '&cPrzepraszam! Musisz umieścić ten hopper, aby zsynchronizować z nim rzeczy.'
+    toomany: '&cMożesz tylko umieścić %amount% hopperówe na porcję...'
+    walkteleenabled: Teleport został włączony dla tego hoppera.
+    walkteledisabled: Teleportacja została wyłączona dla tego leja.
+    onlyone: '&cMożesz umieścić tylko jeden przedmiot na raz.'
+    syncchest: '&7Zsynchronizowałeś swój &9%name% &7z tą skrzynią.'
+    desyncchest: '&7Usunąłeś synchronizację swójego &9%name% &z tą skrzynią.'
+    autosell: '&7Twój hopper sprzedał &6%items% &7przedmiotów za &6$%amount%&7.'
