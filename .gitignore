@@ -7,3 +7,6 @@ usercache.json
 ops.json
 banned-ips.json
 banned-players.json
+*.mca
+*.lock
+*.dat_old
